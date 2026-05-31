@@ -51,22 +51,6 @@ ontocacherag/
 └── results/
 ```
 
-## Quick start
-
-```bash
-pip install rdflib scipy matplotlib
-
-cd experiments
-python 01_clean_arsip.py
-python 02_build_ontology.py
-python 03_run_experiment_abox.py
-python 04_run_experiment_tbox.py
-python 05_run_final.py
-python 06_measure_latency.py
-python 07_analysis_comprehensive.py
-python 08_scalability_experiment.py   # standalone, no data needed
-```
-
 ## Dataset: ArsipDataset
 
 | Property | Value |
@@ -77,18 +61,6 @@ python 08_scalability_experiment.py   # standalone, no data needed
 | Ontology hierarchy | 5 levels, 131 classes, 2 properties |
 | Triples | 1,901 |
 
-## Citation
-
-```bibtex
-@article{untariyati2026ontocacherag,
-  title   = {OntoCacheRAG: Ontology-Driven Selective Cache Invalidation
-             for Knowledge-Graph-Augmented Retrieval Systems},
-  author  = {Untariyati, Nimas Ayu},
-  journal = {Knowledge and Information Systems},
-  year    = {2026},
-  note    = {Under review}
-}
-```
 
 ## License
 
