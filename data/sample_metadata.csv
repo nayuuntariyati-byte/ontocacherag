@@ -1,0 +1,11 @@
+doc_id,regulation_number,year,agency,coordination_cluster,status,revoked_by,title
+D0136,24/2019,2019,Pertahanan,Polhukam,revoked,D0085,Peraturan Menteri Pertahanan Nomor 24 Tahun 2019
+D0085,15/2021,2021,Pertahanan,Polhukam,active,,Peraturan Menteri Pertahanan Nomor 15 Tahun 2021
+D0237,12/2018,2018,Ketenagakerjaan,Perekonomian,revoked,D0089,Peraturan Menteri Ketenagakerjaan Nomor 12 Tahun 2018
+D0089,7/2022,2022,Ketenagakerjaan,Perekonomian,active,,Peraturan Menteri Ketenagakerjaan Nomor 7 Tahun 2022
+D0301,5/2020,2020,Keuangan,Perekonomian,active,,Peraturan Menteri Keuangan Nomor 5 Tahun 2020
+D0445,3/2019,2019,Kesehatan,PMK,active,,Peraturan Menteri Kesehatan Nomor 3 Tahun 2019
+D0512,8/2021,2021,Pendidikan,PMK,active,,Peraturan Menteri Pendidikan Nomor 8 Tahun 2021
+D0123,2/2017,2017,DalamNegeri,Polhukam,revoked,D0456,Peraturan Menteri Dalam Negeri Nomor 2 Tahun 2017
+D0456,9/2020,2020,DalamNegeri,Polhukam,active,,Peraturan Menteri Dalam Negeri Nomor 9 Tahun 2020
+D0078,11/2018,2018,LuarNegeri,Polhukam,active,,Peraturan Menteri Luar Negeri Nomor 11 Tahun 2018
