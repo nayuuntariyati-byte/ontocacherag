@@ -1,0 +1,4344 @@
+@prefix ex: <http://ontocacherag.org/arsipdataset#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ontocacherag.org/arsipdataset> a owl:Ontology ;
+    rdfs:label "ArsipDataset Ontology for OntoCacheRAG"@en ;
+    rdfs:comment "Indonesian regulatory archive ontology with 5-level class hierarchy and revocation relations. Companion ontology for the OntoCacheRAG paper (KAIS, under review)."@en ;
+    owl:versionInfo "1.0" .
+
+ex:D0001 a ex:Permen_Polhukam_HakAsasiManusia ;
+    rdfs:label "Peraturan Menteri Hak Asasi Manusia Nomor 6 Tahun 2025"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0002 a ex:Permen_Marves_DesaPembangunanTertinggal ;
+    rdfs:label "Peraturan Menteri Desa dan Pembangunan Daerah Tertinggal Nomor 2 Tahun 2025"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0003 a ex:Permen_Polhukam_KoordinatorHukumHak ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Hukum, Hak Asasi Manusia, Imigrasi, dan Pemasyarakatan Nomor 1 Tahun 2025"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0004 a ex:Permen_Marves_DesaPembangunanTertinggal ;
+    rdfs:label "Peraturan Menteri Desa dan Pembangunan Daerah Tertinggal Nomor 8 Tahun 2025"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0005 a ex:Permen_Perekonomian_Perdagangan ;
+    rdfs:label "Peraturan Menteri Perdagangan Nomor 7 Tahun 2025"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0006 a ex:Permen_Perekonomian_Keuangan ;
+    rdfs:label "Peraturan Menteri Keuangan Nomor 57 Tahun 2025"@id ;
+    ex:regulationNumber "57" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0007 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 4 Tahun 2025"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0008 a ex:Permen_Lainnya_Perpusnas ;
+    rdfs:label "Peraturan Perpustakaan Nasional Nomor 2 Tahun 2025"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0009 a ex:Permen_Lainnya_SiberSandiNegara ;
+    rdfs:label "Peraturan Badan Siber dan Sandi Negara Nomor 4 Tahun 2025"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0010 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 1 Tahun 2025"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0011 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 5 Tahun 2025"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0012 a ex:Permen_Lainnya_SiberSandiNegara ;
+    rdfs:label "Peraturan Badan Siber dan Sandi Negara Nomor 3 Tahun 2025"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0013 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 2 Tahun 2025"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2025"^^xsd:gYear .
+
+ex:D0014 a ex:Permen_PMK_PemudaOlahraga ;
+    rdfs:label "Peraturan Menteri Pemuda dan Olahraga Nomor 16 Tahun 2024"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0015 a ex:Permen_Polhukam_MenkoPolhukam ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Politik, Hukum, Dan Keamanan Nomor 1 Tahun 2024"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0016 a ex:Permen_Polhukam_MenkoPolhukam ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Politik, Hukum, Dan Keamanan Nomor 3 Tahun 2024"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0017 a ex:Permen_Marves_Parekraf ;
+    rdfs:label "Peraturan Menteri Pariwisata dan Ekonomi Kreatif Nomor 5 Tahun 2024"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0018 a ex:Permen_Marves_Transmigrasi ;
+    rdfs:label "Peraturan Menteri Transmigrasi Nomor 4 Tahun 2024"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0019 a ex:Permen_Polhukam_MenkoPolhukam ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Politik, Hukum, Dan Keamanan Nomor 2 Tahun 2024"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0020 a ex:Permen_Polhukam_SekretariatNegara ;
+    rdfs:label "Peraturan Menteri Sekretariat Negara Nomor 5 Tahun 2024"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0021 a ex:Permen_PMK_Kesehatan ;
+    rdfs:label "Peraturan Menteri Kesehatan Nomor 4 Tahun 2024"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0022 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 3 Tahun 2024"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0023 a ex:Permen_Lainnya_StandardisasiNasional ;
+    rdfs:label "Peraturan Badan Standardisasi Nasional Nomor 1 Tahun 2024"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0024 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 2 Tahun 2024"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0025 a ex:Permen_Lainnya_Perpusnas ;
+    rdfs:label "Peraturan Perpustakaan Nasional Nomor 17 Tahun 2024"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0026 a ex:Permen_Lainnya_BPS ;
+    rdfs:label "Peraturan Kepala Badan Pusat Statistik Nomor 1 Tahun 2024"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0027 a ex:Permen_Lainnya_KepegawaianNegara ;
+    rdfs:label "Peraturan Badan Kepegawaian Negara Nomor 6 Tahun 2024"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0028 a ex:Permen_Lainnya_PanganNasional ;
+    rdfs:label "Peraturan Badan Pangan Nasional Nomor 3 Tahun 2024"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0029 a ex:Permen_Lainnya_KotaSemarang ;
+    rdfs:label "Peraturan Daerah Kota Semarang Nomor 6 Tahun 2024"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0030 a ex:Permen_Lainnya_ProvinsiLampung ;
+    rdfs:label "Peraturan Daerah Provinsi Lampung Nomor 2 Tahun 2024"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2024"^^xsd:gYear .
+
+ex:D0031 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Presiden Nomor 23 Tahun 2023"@id ;
+    ex:regulationNumber "23" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0032 a ex:Permen_PMK_MenkoPMK ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan Nomor 2 Tahun 2023"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0033 a ex:Permen_Perekonomian_KopUKM ;
+    rdfs:label "Peraturan Menteri Koperasi, Usaha Kecil dan Menengah  Nomor 11 Tahun 2023"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0034 a ex:Permen_Polhukam_LuarNegeri ;
+    rdfs:label "Peraturan Menteri Luar Negeri Nomor 6 Tahun 2023"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0035 a ex:Permen_PMK_MenkoPMK ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan Nomor 4 Tahun 2023"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0036 a ex:Permen_PMK_MenkoPMK ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Pembangunan Manusia dan Kebudayaan Nomor 3 Tahun 2023"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0037 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 1 Tahun 2023"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0038 a ex:Permen_Polhukam_KPU ;
+    rdfs:label "Peraturan Komisi Pemilihan Umum Nomor 17 Tahun 2023"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0039 a ex:Permen_Lainnya_NasionalPengelolaPerbatasan ;
+    rdfs:label "Peraturan Badan Nasional Pengelola Perbatasan Nomor 1 Tahun 2023"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0040 a ex:Permen_Lainnya_KabupatenPadangPariaman ;
+    rdfs:label "Peraturan Daerah Kabupaten Padang Pariaman Nomor 1 Tahun 2023"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0041 a ex:Permen_Lainnya_ProvinsiJambi ;
+    rdfs:label "Peraturan Daerah Provinsi Jambi Nomor 8 Tahun 2023"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0042 a ex:Permen_Lainnya_KabupatenPamekasan ;
+    rdfs:label "Peraturan Daerah Kabupaten Pamekasan Nomor 1 Tahun 2023"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0043 a ex:Permen_Lainnya_PengawasObatMakanan ;
+    rdfs:label "Peraturan Badan Pengawas Obat dan Makanan Nomor 6 Tahun 2023"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2023"^^xsd:gYear .
+
+ex:D0044 a ex:Permen_Marves_MenkoMarves ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kemaritiman dan Investasi  Nomor 1 Tahun 2022"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0045 a ex:Permen_PMK_Sosial ;
+    rdfs:label "Peraturan Menteri Sosial Nomor 5 Tahun 2022"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0046 a ex:Permen_Marves_MenkoMarves ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kemaritiman dan Investasi  Nomor 2 Tahun 2022"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0047 a ex:Permen_Polhukam_LuarNegeri ;
+    rdfs:label "Peraturan Menteri Luar Negeri Nomor 3 Tahun 2022"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0048 a ex:Permen_PMK_PendidikanKebudayaanRiset ;
+    rdfs:label "Peraturan Menteri Pendidikan, Kebudayaan, Riset, dan Teknologi Nomor 20 Tahun 2022"@id ;
+    ex:regulationNumber "20" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0050 a ex:Permen_Polhukam_LuarNegeri ;
+    rdfs:label "Peraturan Menteri Luar Negeri Nomor 4 Tahun 2022"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0051 a ex:Permen_Polhukam_DalamNegeri ;
+    rdfs:label "Peraturan Menteri Dalam Negeri Nomor 83 Tahun 2022"@id ;
+    ex:regulationNumber "83" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0052 a ex:Permen_Perekonomian_KopUKM ;
+    rdfs:label "Peraturan Menteri Koperasi dan UKM Nomor 12 Tahun 2022"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0053 a ex:Permen_Perekonomian_Perindustrian ;
+    rdfs:label "Peraturan Menteri Perindustrian Nomor 48 Tahun 2022"@id ;
+    ex:regulationNumber "48" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0055 a ex:Permen_Perekonomian_Perdagangan ;
+    rdfs:label "Peraturan Menteri Perdagangan Nomor 54 Tahun 2022"@id ;
+    ex:regulationNumber "54" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0056 a ex:Permen_Perekonomian_Keuangan ;
+    rdfs:label "Peraturan Menteri Keuangan Nomor 152/PMK.01/2022  Tahun 2022"@id ;
+    ex:regulationNumber "152/PMK.01/2022" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0057 a ex:Permen_Polhukam_Kumham ;
+    rdfs:label "Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 5 Tahun 2022"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0058 a ex:Permen_Perekonomian_KopUKM ;
+    rdfs:label "Peraturan Menteri Koperasi dan UKM Nomor 13 Tahun 2022"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0059 a ex:Permen_Perekonomian_Perdagangan ;
+    rdfs:label "Peraturan Menteri Perdagangan Nomor 48 Tahun 2022"@id ;
+    ex:regulationNumber "48" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0060 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 11 Tahun 2022"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0061 a ex:Permen_Lainnya_PengawasTenagaNuklir ;
+    rdfs:label "Peraturan Badan Pengawas Tenaga Nuklir Nomor 7 Tahun 2022"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0062 a ex:Permen_Lainnya_KejaksaanAgung ;
+    rdfs:label "Peraturan Kejaksaan Agung Nomor 7 Tahun 2022"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0064 a ex:Permen_Lainnya_KejaksaanAgung ;
+    rdfs:label "Peraturan Kejaksaan Agung Nomor 9 Tahun 2022"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0066 a ex:Permen_Lainnya_NarkotikaNasional ;
+    rdfs:label "Peraturan Badan Narkotika Nasional Nomor 9 Tahun 2022"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0067 a ex:Permen_Lainnya_PengawasObatMakanan ;
+    rdfs:label "Peraturan Badan Pengawas Obat dan Makanan Nomor 35 Tahun 2022"@id ;
+    ex:regulationNumber "35" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0068 a ex:Permen_Lainnya_KepegawaianNegara ;
+    rdfs:label "Peraturan Badan Kepegawaian Negara Nomor 1 Tahun 2022"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0069 a ex:Permen_Lainnya_InteligenNegara ;
+    rdfs:label "Peraturan Badan Inteligen Negara Nomor 02 Tahun 2022"@id ;
+    ex:regulationNumber "02" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0070 a ex:Permen_Lainnya_PanganNasional ;
+    rdfs:label "Peraturan Badan Pangan Nasional Nomor 9 Tahun 2022"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0071 a ex:Permen_Lainnya_PelindunganPekerjaMigran ;
+    rdfs:label "Peraturan Badan Pelindungan Pekerja Migran Indonesia Nomor 4 Tahun 2022"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0072 a ex:Permen_Lainnya_KejaksaanAgung ;
+    rdfs:label "Peraturan Kejaksaan Agung Nomor 8 Tahun 2022"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0074 a ex:Permen_Lainnya_PelindunganPekerjaMigran ;
+    rdfs:label "Peraturan Badan Pelindungan Pekerja Migran Indonesia Nomor 2 Tahun 2022"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0075 a ex:Permen_Lainnya_MeteorologiKlimatologiGeofisik ;
+    rdfs:label "Peraturan Badan Meteorologi,Klimatologi,dan Geofisika Nomor 13 Tahun 2022"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0076 a ex:Permen_Lainnya_PengawasPersainganUsaha ;
+    rdfs:label "Peraturan Komisi Pengawas Persaingan Usaha Nomor 8 Tahun 2022"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0077 a ex:Permen_Lainnya_MeteorologiKlimatologiGeofisik ;
+    rdfs:label "Peraturan Badan Meteorologi,Klimatologi,dan Geofisika Nomor 7 Tahun 2022"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0078 a ex:Permen_Lainnya_PelindunganPekerjaMigran ;
+    rdfs:label "Peraturan Badan Pelindungan Pekerja Migran Indonesia Nomor 3 Tahun 2022"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0079 a ex:Permen_Lainnya_KabupatenBrebes ;
+    rdfs:label "Peraturan Daerah Kabupaten Brebes Nomor 9 Tahun 2022"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0080 a ex:Permen_Perekonomian_KopUKM ;
+    rdfs:label "Peraturan Menteri Koperasi dan UKM Nomor 7 Tahun 2021"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0081 a ex:Permen_Perekonomian_PekerjaanUmumPerumahan ;
+    rdfs:label "Peraturan Menteri Pekerjaan Umum dan Perumahan Rakyat Nomor 27 Tahun 2021"@id ;
+    ex:regulationNumber "27" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0082 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 14 Tahun 2021"@id ;
+    ex:regulationNumber "14" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0083 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 10 Tahun 2021"@id ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0084 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 13 Tahun 2021"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0085 a ex:Permen_Marves_MenkoMarves ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kemaritiman dan Investasi  Nomor 3 Tahun 2021"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0088 a ex:Permen_Perekonomian_PekerjaanUmumPerumahan ;
+    rdfs:label "Peraturan Menteri Pekerjaan Umum dan Perumahan Rakyat Nomor 26 Tahun 2021"@id ;
+    ex:regulationNumber "26" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0089 a ex:Permen_Marves_KKP ;
+    rdfs:label "Peraturan Menteri Kelautan dan Perikanan Nomor 9 Tahun 2021"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0091 a ex:Permen_PMK_PPPA ;
+    rdfs:label "Peraturan Menteri Pemberdayaan Perempuan dan Perlindungan Anak Nomor 10 Tahun 2021"@id ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0092 a ex:Permen_Lainnya_PengawasTenagaNuklir ;
+    rdfs:label "Peraturan Badan Pengawas Tenaga Nuklir Nomor 6 Tahun 2021"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0093 a ex:Permen_Lainnya_NasionalPencarianPertolongan ;
+    rdfs:label "Peraturan Badan Nasional Pencarian dan Pertolongan Nomor 6 Tahun 2021"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0094 a ex:Permen_Lainnya_AmilZakatNasional ;
+    rdfs:label "Peraturan Badan Amil Zakat Nasional Nomor 1 Tahun 2021"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0096 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 20 Tahun 2021"@id ;
+    ex:regulationNumber "20" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0097 a ex:Permen_Polhukam_KPU ;
+    rdfs:label "Peraturan Komisi Pemilihan Umum Nomor 8 Tahun 2021"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0098 a ex:Permen_Polhukam_KPU ;
+    rdfs:label "Peraturan Komisi Pemilihan Umum Nomor 7 Tahun 2021"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0099 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 4 Tahun 2021"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0100 a ex:Permen_Lainnya_KeamananLaut ;
+    rdfs:label "Peraturan Badan Keamanan Laut Nomor 27 Tahun 2021"@id ;
+    ex:regulationNumber "27" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0101 a ex:Permen_Lainnya_Perpusnas ;
+    rdfs:label "Peraturan Perpustakaan Nasional Nomor 15 Tahun 2021"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0102 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 5 Tahun 2021"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0103 a ex:Permen_Lainnya_Perpusnas ;
+    rdfs:label "Peraturan Perpustakaan Nasional Nomor 14 Tahun 2021"@id ;
+    ex:regulationNumber "14" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0104 a ex:Permen_Polhukam_NasionalHakAsasi ;
+    rdfs:label "Peraturan Komisi Nasional Hak Asasi Manusia Nomor 6 Tahun 2021"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0106 a ex:Permen_Lainnya_KabupatenBondowoso ;
+    rdfs:label "Peraturan Daerah Kabupaten Bondowoso Nomor 2 Tahun 2021"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0107 a ex:Permen_Lainnya_KotaDepok ;
+    rdfs:label "Peraturan Daerah Kota Depok Nomor 1 Tahun 2021"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0109 a ex:Permen_Perekonomian_ATRBPN ;
+    rdfs:label "Peraturan Menteri Agraria dan Tata Ruang/Badan Pertanahan Nasional Nomor 8 Tahun 2020"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0110 a ex:Permen_Perekonomian_Perdagangan ;
+    rdfs:label "Peraturan Menteri Perdagangan Nomor 73 Tahun 2020"@id ;
+    ex:regulationNumber "73" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0111 a ex:Permen_Marves_MenkoMarves ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kemaritiman dan Investasi  Nomor 1 Tahun 2020"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0112 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 15 Tahun 2020"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0113 a ex:Permen_PMK_PemudaOlahraga ;
+    rdfs:label "Peraturan Menteri Pemuda dan Olahraga Nomor 3 Tahun 2020"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "revoked" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0114 a ex:Permen_Polhukam_DalamNegeri ;
+    rdfs:label "Peraturan Menteri Dalam Negeri Nomor 65 Tahun 2020"@id ;
+    ex:regulationNumber "65" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0115 a ex:Permen_Polhukam_NasionalHakAsasi ;
+    rdfs:label "Peraturan Komisi Nasional Hak Asasi Manusia Nomor 7 Tahun 2020"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0116 a ex:Permen_Polhukam_NasionalHakAsasi ;
+    rdfs:label "Peraturan Komisi Nasional Hak Asasi Manusia Nomor 4 Tahun 2020"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0117 a ex:Permen_Lainnya_PengawasPemilihanUmum ;
+    rdfs:label "Peraturan Badan Pengawas Pemilihan Umum Nomor 14 Tahun 2020"@id ;
+    ex:regulationNumber "14" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0118 a ex:Permen_Polhukam_NasionalHakAsasi ;
+    rdfs:label "Peraturan Komisi Nasional Hak Asasi Manusia Nomor 6 Tahun 2020"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0119 a ex:Permen_Lainnya_KepegawaianNegara ;
+    rdfs:label "Peraturan Badan Kepegawaian Negara Nomor 19 Tahun 2020"@id ;
+    ex:regulationNumber "19" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0120 a ex:Permen_Lainnya_PerlindunganSaksiKorban ;
+    rdfs:label "Peraturan Lembaga Perlindungan Saksi dan Korban Nomor 4 Tahun 2020"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0121 a ex:Permen_Lainnya_KoordinasiPenanamanModal ;
+    rdfs:label "Peraturan Badan Koordinasi Penanaman Modal Nomor 12 Tahun 2020"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0122 a ex:Permen_Lainnya_PengawasPemilihanUmum ;
+    rdfs:label "Peraturan Badan Pengawas Pemilihan Umum Nomor 10 Tahun 2020"@id ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0123 a ex:Permen_Lainnya_PerlindunganSaksiKorban ;
+    rdfs:label "Peraturan Lembaga Perlindungan Saksi dan Korban Nomor 6 Tahun 2020"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0124 a ex:Permen_Lainnya_Perpusnas ;
+    rdfs:label "Peraturan Perpustakaan Nasional Nomor 9 Tahun 2020"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0125 a ex:Permen_Lainnya_KoordinasiPenanamanModal ;
+    rdfs:label "Peraturan Badan Koordinasi Penanaman Modal Nomor 13 Tahun 2020"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0126 a ex:Permen_Lainnya_PengawasPemilihanUmum ;
+    rdfs:label "Peraturan Badan Pengawas Pemilihan Umum Nomor 11 Tahun 2020"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0127 a ex:Permen_Lainnya_KepegawaianNegara ;
+    rdfs:label "Peraturan Badan Kepegawaian Negara Nomor 17 Tahun 2020"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0128 a ex:Permen_Lainnya_KoordinasiPenanamanModal ;
+    rdfs:label "Peraturan Badan Koordinasi Penanaman Modal Nomor 11 Tahun 2020"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0129 a ex:Permen_Lainnya_LKPP ;
+    rdfs:label "Peraturan Lembaga Kebijakan Pengadaan Barang/Jasa Pemerintah Nomor 11 Tahun 2020"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0130 a ex:Permen_Lainnya_PengawasPemilihanUmum ;
+    rdfs:label "Peraturan Badan Pengawas Pemilihan Umum Nomor 12 Tahun 2020"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0131 a ex:Permen_Lainnya_KabupatenLumajang ;
+    rdfs:label "Peraturan Daerah kabupaten Lumajang Nomor 62 Tahun 2020"@id ;
+    ex:regulationNumber "62" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0132 a ex:Permen_Perekonomian_MenkoEkonomi ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Perekonomian Nomor 3 Tahun 2019"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0135 a ex:Permen_Lainnya_BadanUsahaMilik ;
+    rdfs:label "Peraturan Menteri Badan Usaha Milik Negara Nomor PER-06/MBU/10/2019 Tahun 2019"@id ;
+    ex:regulationNumber "PER-06/MBU/10/2019" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0136 a ex:Permen_Lainnya_PerencanaanPembangunanNasional ;
+    rdfs:label "Peraturan Menteri Perencanaan Pembangunan Nasional / Badan Perencanaan Pembangunan Nasional Nomor 1 Tahun 2019"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0138 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 8 Tahun 2019"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0139 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 9 Tahun 2019"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0140 a ex:Permen_PMK_PemudaOlahraga ;
+    rdfs:label "Peraturan Menteri Pemuda dan Olahraga Nomor 8 Tahun 2019"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0141 a ex:Permen_Polhukam_MenkoPolhukam ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Politik, Hukum, Dan Keamanan Nomor 3 Tahun 2019"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0143 a ex:Permen_Perekonomian_Keuangan ;
+    rdfs:label "Peraturan Menteri Keuangan Nomor 196/PMK.01/2019 Tahun 2019"@id ;
+    ex:regulationNumber "196/PMK.01/2019" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0144 a ex:Permen_Polhukam_MenkoPolhukam ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Politik, Hukum, Dan Keamanan Nomor 4 Tahun 2019"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0145 a ex:Permen_PMK_PemudaOlahraga ;
+    rdfs:label "Peraturan Menteri Pemuda dan Olahraga Nomor 6 Tahun 2019"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0146 a ex:Permen_PMK_PendidikanKebudayaan ;
+    rdfs:label "Peraturan Menteri Pendidikan dan Kebudayaan Nomor 41 Tahun 2019"@id ;
+    ex:regulationNumber "41" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0147 a ex:Permen_Marves_LHK ;
+    rdfs:label "Peraturan Menteri Lingkungan Hidup dan Kehutanan Nomor P.55/MENLHK/SETJEN/KUM.1/9/2019 Tahun 2019"@id ;
+    ex:regulationNumber "P.55/MENLHK/SETJEN/KUM.1/9/2019" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0148 a ex:Permen_Polhukam_MenkoPolhukam ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Politik, Hukum, Dan Keamanan Nomor 2 Tahun 2019"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0149 a ex:Permen_Perekonomian_Perdagangan ;
+    rdfs:label "Peraturan Menteri Perdagangan Nomor 16 Tahun 2019"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0151 a ex:Permen_PMK_PemudaOlahraga ;
+    rdfs:label "Peraturan Menteri Pemuda dan Olahraga Nomor 7 Tahun 2019"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0152 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 7 Tahun 2019"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0153 a ex:Permen_PMK_PendidikanKebudayaan ;
+    rdfs:label "Peraturan Menteri Pendidikan dan Kebudayaan Nomor 23 Tahun 2019"@id ;
+    ex:regulationNumber "23" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0154 a ex:Permen_Marves_Pariwisata ;
+    rdfs:label "Peraturan Menteri Pariwisata Nomor 17 Tahun 2019"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0155 a ex:Permen_Lainnya_BIG ;
+    rdfs:label "Peraturan Badan Informasi Geospasial Nomor 13 Tahun 2019"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0156 a ex:Permen_Lainnya_Perpusnas ;
+    rdfs:label "Peraturan Perpustakaan Nasional Nomor 6 Tahun 2019"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0157 a ex:Permen_Lainnya_StandardisasiNasional ;
+    rdfs:label "Peraturan Badan Standardisasi Nasional Nomor 17 Tahun 2019"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0158 a ex:Permen_Lainnya_KepegawaianNegara ;
+    rdfs:label "Peraturan Badan Kepegawaian Negara Nomor 3 Tahun 2019"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0159 a ex:Permen_Lainnya_Perpusnas ;
+    rdfs:label "Peraturan Perpustakaan Nasional Nomor 5 Tahun 2019"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0160 a ex:Permen_Lainnya_PengawasTenagaNuklir ;
+    rdfs:label "Peraturan Badan Pengawas Tenaga Nuklir Nomor 11 Tahun 2019"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0161 a ex:Permen_Lainnya_StandardisasiNasional ;
+    rdfs:label "Peraturan Badan Standardisasi Nasional Nomor 19 Tahun 2019"@id ;
+    ex:regulationNumber "19" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0163 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 4 Tahun 2019"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0164 a ex:Permen_Lainnya_PengawasObatMakanan ;
+    rdfs:label "Peraturan Badan Pengawas Obat dan Makanan Nomor 4 Tahun 2019"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0165 a ex:Permen_Lainnya_PengawasTenagaNuklir ;
+    rdfs:label "Peraturan Badan Pengawas Tenaga Nuklir Nomor 3 Tahun 2019"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0166 a ex:Permen_Lainnya_MeteorologiKlimatologiGeofisik ;
+    rdfs:label "Peraturan Badan Meteorologi,Klimatologi,dan Geofisika Nomor 6 Tahun 2019"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0167 a ex:Permen_Lainnya_PengawasObatMakanan ;
+    rdfs:label "Peraturan Badan Pengawas Obat dan Makanan Nomor 3 Tahun 2019"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0168 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 5 Tahun 2019"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0169 a ex:Permen_Lainnya_NasionalPencarianPertolongan ;
+    rdfs:label "Peraturan Badan Nasional Pencarian dan Pertolongan Nomor 3 Tahun 2019"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0171 a ex:Permen_Lainnya_KabupatenBandungBarat ;
+    rdfs:label "Peraturan Daerah Kabupaten Bandung Barat Nomor 5 Tahun 2019"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0172 a ex:Permen_Lainnya_KotaBandung ;
+    rdfs:label "Peraturan Daerah Kota Bandung Nomor 027 Tahun 2019"@id ;
+    ex:regulationNumber "027" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0173 a ex:Permen_Lainnya_ProvinsiKalimantanUtara ;
+    rdfs:label "Peraturan Daerah Provinsi Kalimantan Utara Nomor 7 Tahun 2019"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0174 a ex:Permen_Lainnya_KotaCirebon ;
+    rdfs:label "Peraturan Daerah Kota Cirebon Nomor 32 Tahun 2019"@id ;
+    ex:regulationNumber "32" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0176 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 2 Tahun 2018"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0177 a ex:Permen_Perekonomian_KopUKM ;
+    rdfs:label "Peraturan Menteri Koperasi dan UKM Nomor 03/PER/M.KUKM/III/2018 Tahun 2018"@id ;
+    ex:regulationNumber "03/PER/M.KUKM/III/2018" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0178 a ex:Permen_Lainnya_BadanUsahaMilik ;
+    rdfs:label "Peraturan Menteri Badan Usaha Milik Negara Nomor PER-04/MBU/03/2018 Tahun 2018"@id ;
+    ex:regulationNumber "PER-04/MBU/03/2018" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0179 a ex:Permen_Perekonomian_KopUKM ;
+    rdfs:label "Peraturan Menteri Koperasi dan UKM Nomor 05 Tahun 2018"@id ;
+    ex:regulationNumber "05" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0180 a ex:Permen_Perekonomian_ATRBPN ;
+    rdfs:label "Peraturan Menteri Agraria dan Tata Ruang/Badan Pertanahan Nasional Nomor 10 Tahun 2018"@id ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0181 a ex:Permen_Perekonomian_PekerjaanUmumPerumahan ;
+    rdfs:label "Peraturan Menteri Pekerjaan Umum dan Perumahan Rakyat Nomor 16/PRT/M/2018 Tahun 2018"@id ;
+    ex:regulationNumber "16/PRT/M/2018" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0183 a ex:Permen_PMK_Kesehatan ;
+    rdfs:label "Peraturan Menteri Kesehatan Nomor 21 Tahun 2018"@id ;
+    ex:regulationNumber "21" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0184 a ex:Permen_Marves_MenkoMarves ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kemaritiman Nomor 5 Tahun 2018"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0185 a ex:Permen_PMK_RisetTeknologiPendidikan ;
+    rdfs:label "Peraturan Menteri Riset, Teknologi, dan Pendidikan Tinggi Nomor 23 Tahun 2018"@id ;
+    ex:regulationNumber "23" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0186 a ex:Permen_Marves_LHK ;
+    rdfs:label "Peraturan Menteri Lingkungan Hidup dan Kehutanan Nomor P.85/MENLHK/SETJEN/KUM.1/8/2018 Tahun 2018"@id ;
+    ex:regulationNumber "P.85/MENLHK/SETJEN/KUM.1/8/2018" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0187 a ex:Permen_Polhukam_DalamNegeri ;
+    rdfs:label "Peraturan Menteri Dalam Negeri Nomor 69 Tahun 2018"@id ;
+    ex:regulationNumber "69" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0188 a ex:Permen_Marves_MenkoMarves ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kemaritiman Nomor 11 Tahun 2018"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0190 a ex:Permen_Marves_Perhubungan ;
+    rdfs:label "Peraturan Menteri Perhubungan Nomor PM112 Tahun 2018"@id ;
+    ex:regulationNumber "PM112" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0191 a ex:Permen_Perekonomian_Ketenagakerjaan ;
+    rdfs:label "Peraturan Menteri Ketenagakerjaan Nomor 17 Tahun 2018"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0192 a ex:Permen_Perekonomian_Ketenagakerjaan ;
+    rdfs:label "Peraturan Menteri Ketenagakerjaan Nomor 22 Tahun 2018"@id ;
+    ex:regulationNumber "22" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0193 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 24 Tahun 2018"@id ;
+    ex:regulationNumber "24" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0194 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 1 Tahun 2018"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0195 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 2 Tahun 2018"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0196 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 3 Tahun 2018"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0197 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 4 Tahun 2018"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0198 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 5 Tahun 2018"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0199 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 6 Tahun 2018"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0200 a ex:Permen_Lainnya_EkonomiKreatif ;
+    rdfs:label "Peraturan Badan Ekonomi Kreatif Nomor 2 Tahun 2018"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0201 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 8 Tahun 2018"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0202 a ex:Permen_Lainnya_MeteorologiKlimatologiGeofisik ;
+    rdfs:label "Peraturan Badan Meteorologi,Klimatologi,dan Geofisika Nomor 1 Tahun 2018"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0204 a ex:Permen_Lainnya_PenerbanganAntariksaNasional ;
+    rdfs:label "Peraturan Lembaga Penerbangan dan Antariksa Nasional Nomor 2 Tahun 2018"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0206 a ex:Permen_Lainnya_LKPP ;
+    rdfs:label "Peraturan Lembaga Kebijakan Pengadaan Barang/Jasa Pemerintah Nomor 20 Tahun 2018"@id ;
+    ex:regulationNumber "20" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0207 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 9 Tahun 2018"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0208 a ex:Permen_Lainnya_LKPP ;
+    rdfs:label "Peraturan Lembaga Kebijakan Pengadaan Barang/Jasa Pemerintah Nomor 21 Tahun 2018"@id ;
+    ex:regulationNumber "21" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0209 a ex:Permen_Lainnya_PemberantasanKorupsi ;
+    rdfs:label "Peraturan Komisi Pemberantasan Korupsi Nomor 07 Tahun 2018"@id ;
+    ex:regulationNumber "07" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0210 a ex:Permen_Lainnya_StandardisasiNasional ;
+    rdfs:label "Peraturan Badan Standardisasi Nasional Nomor 7 Tahun 2018"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0211 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 11 Tahun 2018"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0212 a ex:Permen_Lainnya_PengawasPemilihanUmum ;
+    rdfs:label "Peraturan Badan Pengawas Pemilihan Umum Nomor 32 Tahun 2018"@id ;
+    ex:regulationNumber "32" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0213 a ex:Permen_Lainnya_NasionalPengelolaPerbatasan ;
+    rdfs:label "Peraturan Badan Nasional Pengelola Perbatasan Nomor 10 Tahun 2018"@id ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0214 a ex:Permen_Lainnya_NasionalPengelolaPerbatasan ;
+    rdfs:label "Peraturan Badan Nasional Pengelola Perbatasan Nomor 9 Tahun 2018"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0215 a ex:Permen_Lainnya_NasionalPengelolaPerbatasan ;
+    rdfs:label "Peraturan Badan Nasional Pengelola Perbatasan Nomor 8 Tahun 2018"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0216 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 15 Tahun 2018"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0217 a ex:Permen_Lainnya_EkonomiKreatif ;
+    rdfs:label "Peraturan Badan Ekonomi Kreatif Nomor 10 Tahun 2018"@id ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0218 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 14 Tahun 2018"@id ;
+    ex:regulationNumber "14" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0219 a ex:Permen_Lainnya_KotaBogor ;
+    rdfs:label "Peraturan Daerah Kota Bogor Nomor 46 Tahun 2018"@id ;
+    ex:regulationNumber "46" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0220 a ex:Permen_Lainnya_KotaBogor ;
+    rdfs:label "Peraturan Daerah Kota Bogor Nomor 45 Tahun 2018"@id ;
+    ex:regulationNumber "45" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0221 a ex:Permen_Lainnya_KotaBanjarbaru ;
+    rdfs:label "Peraturan Daerah Kota Banjarbaru Nomor 3 Tahun 2018"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0222 a ex:Permen_Lainnya_KotaBogor ;
+    rdfs:label "Peraturan Daerah Kota Bogor Nomor 47 Tahun 2018"@id ;
+    ex:regulationNumber "47" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0223 a ex:Permen_Lainnya_KabupatenBlora ;
+    rdfs:label "Peraturan Daerah Kabupaten Blora Nomor 9 Tahun 2018"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0224 a ex:Permen_Lainnya_KabupatenLuwuTimur ;
+    rdfs:label "Peraturan Daerah Kabupaten Luwu Timur Nomor 8 Tahun 2018"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0225 a ex:Permen_Lainnya_KabupatenBlitar ;
+    rdfs:label "Peraturan Daerah Kabupaten Blitar Nomor 8 Tahun 2018"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0226 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Presiden Nomor 118 Tahun 2018"@id ;
+    ex:regulationNumber "118" ;
+    ex:status "unspecified" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0227 a ex:Permen_PMK_Kesehatan ;
+    rdfs:label "Peraturan Menteri Kesehatan Nomor 77 Tahun 2017"@id ;
+    ex:regulationNumber "77" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0228 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 41 Tahun 2017"@id ;
+    ex:regulationNumber "41" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0229 a ex:Permen_Perekonomian_Perdagangan ;
+    rdfs:label "Peraturan Menteri Perdagangan Nomor 05/M-DAG/PER/2/2017 Tahun 2017"@id ;
+    ex:regulationNumber "05/M-DAG/PER/2/2017" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0230 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 1 Tahun 2017"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0231 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 2 Tahun 2017"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0232 a ex:Permen_PMK_Sosial ;
+    rdfs:label "Peraturan Menteri Sosial Nomor 2 Tahun 2017"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0236 a ex:Permen_Perekonomian_Pertanian ;
+    rdfs:label "Peraturan Menteri Pertanian Nomor 18/PERMENTAN/TU.110/5/2017 Tahun 2017"@id ;
+    ex:regulationNumber "18/PERMENTAN/TU.110/5/2017" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0237 a ex:Permen_Polhukam_MenkoPolhukam ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Politik, Hukum, Dan Keamanan Nomor 3 Tahun 2017"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0239 a ex:Permen_Polhukam_Kumham ;
+    rdfs:label "Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 23 Tahun 2017"@id ;
+    ex:regulationNumber "23" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0240 a ex:Permen_PMK_RisetTeknologiPendidikan ;
+    rdfs:label "Peraturan Menteri Riset, Teknologi, dan Pendidikan Tinggi Nomor 78 Tahun 2017"@id ;
+    ex:regulationNumber "78" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0241 a ex:Permen_Polhukam_DalamNegeri ;
+    rdfs:label "Peraturan Menteri Dalam Negeri Nomor 135 Tahun 2017"@id ;
+    ex:regulationNumber "135" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0242 a ex:Permen_Perekonomian_Perdagangan ;
+    rdfs:label "Peraturan Menteri Perdagangan Nomor 99 Tahun 2017"@id ;
+    ex:regulationNumber "99" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0243 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 21 Tahun 2017"@id ;
+    ex:regulationNumber "21" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0244 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 20 Tahun 2017"@id ;
+    ex:regulationNumber "20" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0245 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 26 Tahun 2017"@id ;
+    ex:regulationNumber "26" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0246 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 27 Tahun 2017"@id ;
+    ex:regulationNumber "27" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0247 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 28 Tahun 2017"@id ;
+    ex:regulationNumber "28" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0248 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 1 Tahun 2017"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0249 a ex:Permen_Lainnya_EkonomiKreatif ;
+    rdfs:label "Peraturan Badan Ekonomi Kreatif Nomor 2 Tahun 2017"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0250 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 4 Tahun 2017"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0251 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 3 Tahun 2017"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0252 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 5 Tahun 2017"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0253 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 6 Tahun 2017"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0254 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 7 Tahun 2017"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0255 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 8 Tahun 2017"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0256 a ex:Permen_Lainnya_PemberantasanKorupsi ;
+    rdfs:label "Peraturan Komisi Pemberantasan Korupsi Nomor 3 Tahun 2017"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0257 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 9 Tahun 2017"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0258 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 10 Tahun 2017"@id ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0259 a ex:Permen_Lainnya_SandiNegara ;
+    rdfs:label "Peraturan Lembaga Sandi Negara Nomor 4 Tahun 2017"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0260 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 11 Tahun 2017"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0261 a ex:Permen_Lainnya_SandiNegara ;
+    rdfs:label "Peraturan Lembaga Sandi Negara Nomor 9 Tahun 2017"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0262 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 13 Tahun 2017"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0263 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 12 Tahun 2017"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0264 a ex:Permen_Lainnya_PemberantasanKorupsi ;
+    rdfs:label "Peraturan Komisi Pemberantasan Korupsi Nomor 06 Tahun 2017"@id ;
+    ex:regulationNumber "06" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0265 a ex:Permen_Lainnya_PemberantasanKorupsi ;
+    rdfs:label "Peraturan Komisi Pemberantasan Korupsi Nomor 07 Tahun 2017"@id ;
+    ex:regulationNumber "07" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0266 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 14 Tahun 2017"@id ;
+    ex:regulationNumber "14" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0267 a ex:Permen_Lainnya_TenagaNuklirNasional ;
+    rdfs:label "Peraturan Badan Tenaga Nuklir Nasional Nomor 12 Tahun 2017"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0268 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 15 Tahun 2017"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0269 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 16 Tahun 2017"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0270 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 17 Tahun 2017"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0271 a ex:Permen_Lainnya_NasionalPenanggulanganTerorism ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Terorisme Nomor 5 Tahun 2017"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0272 a ex:Permen_Lainnya_NasionalPenanggulanganTerorism ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Terorisme Nomor 3 Tahun 2017"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0273 a ex:Permen_Lainnya_NasionalPenanggulanganTerorism ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Terorisme Nomor 2 Tahun 2017"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0275 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 21 Tahun 2017"@id ;
+    ex:regulationNumber "21" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0276 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 22 Tahun 2017"@id ;
+    ex:regulationNumber "22" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0277 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 23 Tahun 2017"@id ;
+    ex:regulationNumber "23" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0278 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 18 Tahun 2017"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0279 a ex:Permen_Lainnya_NasionalPencarianPertolongan ;
+    rdfs:label "Peraturan Badan Nasional Pencarian dan Pertolongan Nomor 18 Tahun 2017"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0280 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 20 Tahun 2017"@id ;
+    ex:regulationNumber "20" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0281 a ex:Permen_Lainnya_NasionalPenanggulanganTerorism ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Terorisme Nomor 6 Tahun 2017"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0282 a ex:Permen_Lainnya_PusatPelaporanAnalisis ;
+    rdfs:label "Peraturan Pusat Pelaporan dan Analisis Transaksi Keuangan Nomor 15 Tahun 2017"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0283 a ex:Permen_Lainnya_ProvinsiDkiJakarta ;
+    rdfs:label "Peraturan Daerah Provinsi DKI Jakarta Nomor 4 Tahun 2017"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0284 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Presiden Nomor 15 Tahun 2017"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0285 a ex:Permen_Polhukam_MenkoPolhukam ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Politik, Hukum, Dan Keamanan Nomor 1 Tahun 2016"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0286 a ex:Permen_Perekonomian_KopUKM ;
+    rdfs:label "Peraturan Menteri Koperasi dan UKM Nomor 04/PER/M.KUKM/I/2016 Tahun 2016"@id ;
+    ex:regulationNumber "04/PER/M.KUKM/I/2016" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0289 a ex:Permen_PMK_PPPA ;
+    rdfs:label "Peraturan Menteri Pemberdayaan Perempuan dan Perlindungan Anak Nomor 5 Tahun 2016"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0290 a ex:Permen_Polhukam_PANRB ;
+    rdfs:label "Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 13 Tahun 2016"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0292 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 40 Tahun 2016"@id ;
+    ex:regulationNumber "40" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0295 a ex:Permen_Polhukam_Kumham ;
+    rdfs:label "Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 54 Tahun 2016"@id ;
+    ex:regulationNumber "54" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0296 a ex:Permen_PMK_Sosial ;
+    rdfs:label "Peraturan Menteri Sosial Nomor 3 Tahun 2016"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0297 a ex:Permen_PMK_PendidikanKebudayaan ;
+    rdfs:label "Peraturan Menteri Pendidikan dan Kebudayaan Nomor 45 Tahun 2016"@id ;
+    ex:regulationNumber "45" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0298 a ex:Permen_Polhukam_Kumham ;
+    rdfs:label "Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 55 Tahun 2016"@id ;
+    ex:regulationNumber "55" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0299 a ex:Permen_Polhukam_Kumham ;
+    rdfs:label "Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 56 Tahun 2016"@id ;
+    ex:regulationNumber "56" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0300 a ex:Permen_Polhukam_PANRB ;
+    rdfs:label "Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 16 Tahun 2016"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0301 a ex:Permen_Perekonomian_KopUKM ;
+    rdfs:label "Peraturan Menteri Koperasi dan UKM Nomor 11/PER/M.KUKM/IX/2016 Tahun 2016"@id ;
+    ex:regulationNumber "11/PER/M.KUKM/IX/2016" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0302 a ex:Permen_Perekonomian_PekerjaanUmumPerumahan ;
+    rdfs:label "Peraturan Menteri Pekerjaan Umum dan Perumahan Rakyat Nomor 23/PRT/M/2016 Tahun 2016"@id ;
+    ex:regulationNumber "23/PRT/M/2016" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0303 a ex:Permen_PMK_Sosial ;
+    rdfs:label "Peraturan Menteri Sosial Nomor 11 Tahun 2016"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0304 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 3 Tahun 2016"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0305 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 4 Tahun 2016"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0306 a ex:Permen_Lainnya_NarkotikaNasional ;
+    rdfs:label "Peraturan Badan Narkotika Nasional Nomor 5 Tahun 2016"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0307 a ex:Permen_Lainnya_NarkotikaNasional ;
+    rdfs:label "Peraturan Badan Narkotika Nasional Nomor 02 Tahun 2016"@id ;
+    ex:regulationNumber "02" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0308 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 5 Tahun 2016"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0309 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 6 Tahun 2016"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0310 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 7 Tahun 2016"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0311 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 8 Tahun 2016"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0312 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 9 Tahun 2016"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0314 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 2 Tahun 2016"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0315 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 11 Tahun 2016"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0316 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 12 Tahun 2016"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0317 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 13 Tahun 2016"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0318 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 14 Tahun 2016"@id ;
+    ex:regulationNumber "14" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0319 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 15 Tahun 2016"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0320 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 16 Tahun 2016"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0321 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 17 Tahun 2016"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0323 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 19 Tahun 2016"@id ;
+    ex:regulationNumber "19" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0324 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 20 Tahun 2016"@id ;
+    ex:regulationNumber "20" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0325 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 21 Tahun 2016"@id ;
+    ex:regulationNumber "21" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0327 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 24 Tahun 2016"@id ;
+    ex:regulationNumber "24" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0328 a ex:Permen_Lainnya_PemberantasanKorupsi ;
+    rdfs:label "Peraturan Komisi Pemberantasan Korupsi Nomor 03 Tahun 2016"@id ;
+    ex:regulationNumber "03" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0329 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 23 Tahun 2016"@id ;
+    ex:regulationNumber "23" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0330 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 33 Tahun 2016"@id ;
+    ex:regulationNumber "33" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0331 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 34 Tahun 2016"@id ;
+    ex:regulationNumber "34" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0333 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 35 Tahun 2016"@id ;
+    ex:regulationNumber "35" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0334 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 2 Tahun 2016"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0336 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 38 Tahun 2016"@id ;
+    ex:regulationNumber "38" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0337 a ex:Permen_Lainnya_PemberantasanKorupsi ;
+    rdfs:label "Peraturan Komisi Pemberantasan Korupsi Nomor 09 Tahun 2016"@id ;
+    ex:regulationNumber "09" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0338 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 36 Tahun 2016"@id ;
+    ex:regulationNumber "36" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0339 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 26 Tahun 2016"@id ;
+    ex:regulationNumber "26" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0340 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 25 Tahun 2016"@id ;
+    ex:regulationNumber "25" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0341 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 27 Tahun 2016"@id ;
+    ex:regulationNumber "27" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0342 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 28 Tahun 2016"@id ;
+    ex:regulationNumber "28" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0343 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 29 Tahun 2016"@id ;
+    ex:regulationNumber "29" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0344 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 31 Tahun 2016"@id ;
+    ex:regulationNumber "31" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0345 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 30 Tahun 2016"@id ;
+    ex:regulationNumber "30" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0346 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 32 Tahun 2016"@id ;
+    ex:regulationNumber "32" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0347 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 1 Tahun 2016"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0348 a ex:Permen_Lainnya_KepegawaianNegara ;
+    rdfs:label "Peraturan Badan Kepegawaian Negara Nomor 24 Tahun 2016"@id ;
+    ex:regulationNumber "24" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0349 a ex:Permen_Lainnya_KotaBandung ;
+    rdfs:label "Peraturan Daerah Kota Bandung Nomor 3 Tahun 2016"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0350 a ex:Permen_Perekonomian_KopUKM ;
+    rdfs:label "Peraturan Menteri Koperasi dan UKM Nomor 03/PER/M.KUKM/III/2015 Tahun 2015"@id ;
+    ex:regulationNumber "03/PER/M.KUKM/III/2015" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0351 a ex:Permen_Lainnya_PerencanaanPembangunanNasional ;
+    rdfs:label "Peraturan Menteri Perencanaan Pembangunan Nasional / Badan Perencanaan Pembangunan Nasional Nomor 5 Tahun 2015"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0352 a ex:Permen_Lainnya_PerencanaanPembangunanNasional ;
+    rdfs:label "Peraturan Menteri Perencanaan Pembangunan Nasional / Badan Perencanaan Pembangunan Nasional Nomor 6 Tahun 2015"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0354 a ex:Permen_Polhukam_LuarNegeri ;
+    rdfs:label "Peraturan Menteri Luar Negeri Nomor 4 Tahun 2015"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0355 a ex:Permen_Lainnya_KomunikasiInformatika ;
+    rdfs:label "Peraturan Menteri Komunikasi dan Informatika Nomor 23 Tahun 2015"@id ;
+    ex:regulationNumber "23" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0358 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 14 Tahun 2015"@id ;
+    ex:regulationNumber "14" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0359 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 22 Tahun 2015"@id ;
+    ex:regulationNumber "22" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0360 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 23 Tahun 2015"@id ;
+    ex:regulationNumber "23" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0361 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 18 Tahun 2015"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0362 a ex:Permen_Lainnya_Perpusnas ;
+    rdfs:label "Peraturan Perpustakaan Nasional Nomor 2 Tahun 2015"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0363 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 5 Tahun 2015"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0364 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 13 Tahun 2015"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0365 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 2 Tahun 2015"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0366 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 3 Tahun 2015"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0367 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 6 Tahun 2015"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0368 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 7 Tahun 2015"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0369 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 8 Tahun 2015"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0370 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 9 Tahun 2015"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0371 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 10 Tahun 2015"@id ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0372 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 11 Tahun 2015"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0373 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 4 Tahun 2015"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0374 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 19 Tahun 2015"@id ;
+    ex:regulationNumber "19" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0375 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 20 Tahun 2015"@id ;
+    ex:regulationNumber "20" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0376 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 36 Tahun 2015"@id ;
+    ex:regulationNumber "36" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0377 a ex:Permen_Lainnya_TenagaNuklirNasional ;
+    rdfs:label "Peraturan Badan Tenaga Nuklir Nasional Nomor 6 Tahun 2015"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0378 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 12 Tahun 2015"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0380 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 29 Tahun 2015"@id ;
+    ex:regulationNumber "29" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0381 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 17 Tahun 2015"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0382 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 15 Tahun 2015"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0383 a ex:Permen_Lainnya_BIG ;
+    rdfs:label "Peraturan Badan Informasi Geospasial Nomor 3 Tahun 2015"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0384 a ex:Permen_Lainnya_Perpusnas ;
+    rdfs:label "Peraturan Perpustakaan Nasional Nomor 4 Tahun 2015"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0385 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 30 Tahun 2015"@id ;
+    ex:regulationNumber "30" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0386 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 31 Tahun 2015"@id ;
+    ex:regulationNumber "31" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0389 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 1 Tahun 2015"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0390 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 16 Tahun 2015"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0391 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 28 Tahun 2015"@id ;
+    ex:regulationNumber "28" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0392 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 24 Tahun 2015"@id ;
+    ex:regulationNumber "24" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0393 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 34 Tahun 2015"@id ;
+    ex:regulationNumber "34" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0397 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 39 Tahun 2015"@id ;
+    ex:regulationNumber "39" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0398 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 40 Tahun 2015"@id ;
+    ex:regulationNumber "40" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0399 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 41 Tahun 2015"@id ;
+    ex:regulationNumber "41" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0400 a ex:Permen_Lainnya_PengawasPemilihanUmum ;
+    rdfs:label "Peraturan Badan Pengawas Pemilihan Umum Nomor 16 Tahun 2015"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0401 a ex:Permen_Lainnya_BNPB ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Bencana Nomor 02 Tahun 2015"@id ;
+    ex:regulationNumber "02" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0402 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 25 Tahun 2015"@id ;
+    ex:regulationNumber "25" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0404 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 42 Tahun 2015"@id ;
+    ex:regulationNumber "42" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0405 a ex:Permen_Lainnya_LAN ;
+    rdfs:label "Peraturan Lembaga Administrasi Negara Nomor 42 Tahun 2015"@id ;
+    ex:regulationNumber "42" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0406 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 46 Tahun 2015"@id ;
+    ex:regulationNumber "46" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0408 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 48 Tahun 2015"@id ;
+    ex:regulationNumber "48" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0409 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 49 Tahun 2015"@id ;
+    ex:regulationNumber "49" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0410 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 50 Tahun 2015"@id ;
+    ex:regulationNumber "50" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0411 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 51 Tahun 2015"@id ;
+    ex:regulationNumber "51" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0412 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 52 Tahun 2015"@id ;
+    ex:regulationNumber "52" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0413 a ex:Permen_Lainnya_PengawasanKeuanganPembangunan ;
+    rdfs:label "Peraturan Badan Pengawasan Keuangan dan Pembangunan Nomor 18 Tahun 2015"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0414 a ex:Permen_Lainnya_KotaTasikmalaya ;
+    rdfs:label "Peraturan Daerah Kota Tasikmalaya Nomor 5 Tahun 2015"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0415 a ex:Permen_Lainnya_KotaPangkalPinang ;
+    rdfs:label "Peraturan Daerah Kota Pangkal Pinang Nomor 3 Tahun 2015"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0416 a ex:Permen_Lainnya_KabupatenIndramayu ;
+    rdfs:label "Peraturan Daerah Kabupaten Indramayu Nomor 4 Tahun 2015"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0417 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Presiden Nomor 121 Tahun 2015"@id ;
+    ex:regulationNumber "121" ;
+    ex:status "active" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0418 a ex:Permen_Lainnya_KomunikasiInformatika ;
+    rdfs:label "Peraturan Menteri Komunikasi dan Informatika Nomor 12 Tahun 2014"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0419 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 13 Tahun 2014"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "unspecified" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0420 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 14 Tahun 2014"@id ;
+    ex:regulationNumber "14" ;
+    ex:status "unspecified" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0421 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 15 Tahun 2014"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "unspecified" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0422 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 16 Tahun 2014"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "unspecified" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0424 a ex:Permen_Lainnya_KoordinatorKesejahteraanRakyat ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kesejahteraan Rakyat Nomor 04 Tahun 2014"@id ;
+    ex:regulationNumber "04" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0425 a ex:Permen_Marves_KKP ;
+    rdfs:label "Peraturan Menteri Kelautan dan Perikanan Nomor 50/PERMEN-KP/2014 Tahun 2014"@id ;
+    ex:regulationNumber "50/PERMEN-KP/2014" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0426 a ex:Permen_Marves_KKP ;
+    rdfs:label "Peraturan Menteri Kelautan dan Perikanan Nomor 53/PERMEN-KP/2014 Tahun 2014"@id ;
+    ex:regulationNumber "53/PERMEN-KP/2014" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0427 a ex:Permen_Perekonomian_Keuangan ;
+    rdfs:label "Peraturan Menteri Keuangan Nomor 276/PMK.01/2014 Tahun 2014"@id ;
+    ex:regulationNumber "276/PMK.01/2014" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0428 a ex:Permen_Lainnya_KoordinatorKesejahteraanRakyat ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kesejahteraan Rakyat Nomor 5 Tahun 2014"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0429 a ex:Permen_Polhukam_MenkoPolhukam ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Politik, Hukum, Dan Keamanan Nomor 15 Tahun 2014"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0430 a ex:Permen_Polhukam_MenkoPolhukam ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Politik, Hukum, Dan Keamanan Nomor 16 Tahun 2014"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0431 a ex:Permen_Polhukam_PANRB ;
+    rdfs:label "Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 21 Tahun 2014"@id ;
+    ex:regulationNumber "21" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0432 a ex:Permen_Marves_Perhubungan ;
+    rdfs:label "Peraturan Menteri Perhubungan Nomor PM92 Tahun 2014"@id ;
+    ex:regulationNumber "PM92" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0433 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 43 Tahun 2014"@id ;
+    ex:regulationNumber "43" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0435 a ex:Permen_Polhukam_PANRB ;
+    rdfs:label "Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 48 Tahun 2014"@id ;
+    ex:regulationNumber "48" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0436 a ex:Permen_Marves_Perhubungan ;
+    rdfs:label "Peraturan Menteri Perhubungan Nomor PM.92 Tahun 2014"@id ;
+    ex:regulationNumber "PM.92" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0437 a ex:Permen_Polhukam_KPU ;
+    rdfs:label "Peraturan Komisi Pemilihan Umum Nomor 11 Tahun 2014"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0438 a ex:Permen_Lainnya_IlmuPengetahuan ;
+    rdfs:label "Peraturan Lembaga Ilmu Pengetahuan Indonesia Nomor 06 Tahun 2014"@id ;
+    ex:regulationNumber "06" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0441 a ex:Permen_Lainnya_MeteorologiKlimatologiGeofisik ;
+    rdfs:label "Peraturan Badan Meteorologi,Klimatologi,dan Geofisika Nomor 2 Tahun 2014"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0442 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 1 Tahun 2014"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0443 a ex:Permen_Lainnya_NarkotikaNasional ;
+    rdfs:label "Peraturan Badan Narkotika Nasional Nomor 9 Tahun 2014"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0444 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 3 Tahun 2014"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0445 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 4 Tahun 2014"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0446 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 11 Tahun 2014"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0448 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 2 Tahun 2014"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0450 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 12 Tahun 2014"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0451 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 13 Tahun 2014"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0453 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 17 Tahun 2014"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0454 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 18 Tahun 2014"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0455 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 20 Tahun 2014"@id ;
+    ex:regulationNumber "20" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0456 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 7 Tahun 2014"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0457 a ex:Permen_Lainnya_MeteorologiKlimatologiGeofisik ;
+    rdfs:label "Peraturan Badan Meteorologi,Klimatologi,dan Geofisika Nomor 18 Tahun 2014"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0458 a ex:Permen_Lainnya_NarkotikaNasional ;
+    rdfs:label "Peraturan Badan Narkotika Nasional Nomor 7 Tahun 2014"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0459 a ex:Permen_Lainnya_NarkotikaNasional ;
+    rdfs:label "Peraturan Badan Narkotika Nasional Nomor 8 Tahun 2014"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0460 a ex:Permen_Lainnya_PengawasPemilihanUmum ;
+    rdfs:label "Peraturan Badan Pengawas Pemilihan Umum Nomor 21 Tahun 2014"@id ;
+    ex:regulationNumber "21" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0461 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 5 Tahun 2014"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0462 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 9 Tahun 2014"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0463 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 6 Tahun 2014"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0464 a ex:Permen_Lainnya_PusatPelaporanAnalisis ;
+    rdfs:label "Peraturan Pusat Pelaporan dan Analisis Transaksi Keuangan Nomor PER06/1.01/PPATK/06/14 Tahun 2014"@id ;
+    ex:regulationNumber "PER06/1.01/PPATK/06/14" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0465 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 19 Tahun 2014"@id ;
+    ex:regulationNumber "19" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0466 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 8 Tahun 2014"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0467 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 23 Tahun 2014"@id ;
+    ex:regulationNumber "23" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0468 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 22 Tahun 2014"@id ;
+    ex:regulationNumber "22" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0469 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 21 Tahun 2014"@id ;
+    ex:regulationNumber "21" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0470 a ex:Permen_Lainnya_ProvinsiSumateraSelatan ;
+    rdfs:label "Peraturan Daerah Provinsi Sumatera Selatan Nomor 18 Tahun 2014"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0471 a ex:Permen_Lainnya_ProvinsiBanten ;
+    rdfs:label "Peraturan Daerah Provinsi Banten Nomor 4 Tahun 2014"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0473 a ex:Permen_Marves_Perhubungan ;
+    rdfs:label "Peraturan Menteri Perhubungan Nomor PM.94 Tahun 2013"@id ;
+    ex:regulationNumber "PM.94" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0474 a ex:Permen_PMK_Sosial ;
+    rdfs:label "Peraturan Menteri Sosial Nomor 11 Tahun 2013"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0475 a ex:Permen_Polhukam_PANRB ;
+    rdfs:label "Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 41 Tahun 2013"@id ;
+    ex:regulationNumber "41" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0476 a ex:Permen_Polhukam_PANRB ;
+    rdfs:label "Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 42 Tahun 2013"@id ;
+    ex:regulationNumber "42" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0477 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 26 Tahun 2013"@id ;
+    ex:regulationNumber "26" ;
+    ex:status "unspecified" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0479 a ex:Permen_Marves_Kehutanan ;
+    rdfs:label "Peraturan Menteri Kehutanan Nomor P.35/MENHUT-II/2013 Tahun 2013"@id ;
+    ex:regulationNumber "P.35/MENHUT-II/2013" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0480 a ex:Permen_Polhukam_Kumham ;
+    rdfs:label "Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 4 Tahun 2013"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0481 a ex:Permen_Polhukam_Kumham ;
+    rdfs:label "Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 35 Tahun 2013"@id ;
+    ex:regulationNumber "35" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0482 a ex:Permen_Polhukam_PANRB ;
+    rdfs:label "Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 43 Tahun 2013"@id ;
+    ex:regulationNumber "43" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0484 a ex:Permen_Lainnya_TenagaNuklirNasional ;
+    rdfs:label "Peraturan Badan Tenaga Nuklir Nasional Nomor 230/KA/XII/2012 Tahun 2013"@id ;
+    ex:regulationNumber "230/KA/XII/2012" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0485 a ex:Permen_Lainnya_NarkotikaNasional ;
+    rdfs:label "Peraturan Badan Narkotika Nasional Nomor 5 Tahun 2013"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0487 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 1 Tahun 2013"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0488 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 2 Tahun 2013"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0489 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 3 Tahun 2013"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0490 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 4 Tahun 2013"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0491 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 5 Tahun 2013"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0492 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 6 Tahun 2013"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0493 a ex:Permen_Lainnya_BNPB ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Bencana Nomor 2 Tahun 2013"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0494 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 12 Tahun 2013"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0495 a ex:Permen_Lainnya_KabupatenTanjungJabung ;
+    rdfs:label "Peraturan Daerah Kabupaten Tanjung Jabung Timur Nomor 15 Tahun 2013"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0496 a ex:Permen_Lainnya_KabupatenGarut ;
+    rdfs:label "Peraturan Daerah Kabupaten Garut Nomor 6 Tahun 2013"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0497 a ex:Permen_Lainnya_KabupatenBadung ;
+    rdfs:label "Peraturan Daerah Kabupaten Badung Nomor 22 Tahun 2013"@id ;
+    ex:regulationNumber "22" ;
+    ex:status "active" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0498 a ex:Permen_Lainnya_KomunikasiInformatika ;
+    rdfs:label "Peraturan Menteri Komunikasi dan Informatika Nomor 13 Tahun 2012"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0499 a ex:Permen_PMK_Kesehatan ;
+    rdfs:label "Peraturan Menteri Kesehatan Nomor 30 Tahun 2012"@id ;
+    ex:regulationNumber "30" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0500 a ex:Permen_Polhukam_DalamNegeri ;
+    rdfs:label "Peraturan Menteri Dalam Negeri Nomor 78 Tahun 2012"@id ;
+    ex:regulationNumber "78" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0501 a ex:Permen_Perekonomian_NegaraPerumahanRakyat ;
+    rdfs:label "Peraturan Menteri Negara Perumahan Rakyat Nomor 30 Tahun 2012"@id ;
+    ex:regulationNumber "30" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0502 a ex:Permen_Perekonomian_NegaraPerumahanRakyat ;
+    rdfs:label "Peraturan Menteri Negara Perumahan Rakyat Nomor 31 Tahun 2012"@id ;
+    ex:regulationNumber "31" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0504 a ex:Permen_PMK_PendidikanKebudayaan ;
+    rdfs:label "Peraturan Menteri Pendidikan dan Kebudayaan Nomor 60 Tahun 2012"@id ;
+    ex:regulationNumber "60" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0505 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 5 Tahun 2012"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0506 a ex:Permen_Lainnya_KoordinatorKesejahteraanRakyat ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kesejahteraan Rakyat Nomor 1 Tahun 2012"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0507 a ex:Permen_Lainnya_KoordinatorKesejahteraanRakyat ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kesejahteraan Rakyat Nomor 2 Tahun 2012"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0508 a ex:Permen_Polhukam_Kumham ;
+    rdfs:label "Peraturan Menteri Hukum dan Hak Asasi Manusia Nomor 6 Tahun 2012"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0510 a ex:Permen_Lainnya_MeteorologiKlimatologiGeofisik ;
+    rdfs:label "Peraturan Badan Meteorologi,Klimatologi,dan Geofisika Nomor KEP.10 Tahun 2012"@id ;
+    ex:regulationNumber "KEP.10" ;
+    ex:status "revoked" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0511 a ex:Permen_Polhukam_KPU ;
+    rdfs:label "Peraturan Komisi Pemilihan Umum Nomor 3 Tahun 2012"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0512 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 03 Tahun 2012"@id ;
+    ex:regulationNumber "03" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0513 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 04 Tahun 2012"@id ;
+    ex:regulationNumber "04" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0514 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 09 Tahun 2012"@id ;
+    ex:regulationNumber "09" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0515 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 12 Tahun 2012"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0516 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 13 Tahun 2012"@id ;
+    ex:regulationNumber "13" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0517 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 15 Tahun 2012"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0519 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 19 Tahun 2012"@id ;
+    ex:regulationNumber "19" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0520 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 21 Tahun 2012"@id ;
+    ex:regulationNumber "21" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0521 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 22 Tahun 2012"@id ;
+    ex:regulationNumber "22" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0522 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 23 Tahun 2012"@id ;
+    ex:regulationNumber "23" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0523 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 24 Tahun 2012"@id ;
+    ex:regulationNumber "24" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0525 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 26 Tahun 2012"@id ;
+    ex:regulationNumber "26" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0526 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 27 Tahun 2012"@id ;
+    ex:regulationNumber "27" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0528 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 29 Tahun 2012"@id ;
+    ex:regulationNumber "29" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0529 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 30 Tahun 2012"@id ;
+    ex:regulationNumber "30" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0530 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 31 Tahun 2012"@id ;
+    ex:regulationNumber "31" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0531 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 32 Tahun 2012"@id ;
+    ex:regulationNumber "32" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0532 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 33 Tahun 2012"@id ;
+    ex:regulationNumber "33" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0533 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 35 Tahun 2012"@id ;
+    ex:regulationNumber "35" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0534 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 36 Tahun 2012"@id ;
+    ex:regulationNumber "36" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0535 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 37 Tahun 2012"@id ;
+    ex:regulationNumber "37" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0536 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 7 Tahun 2012"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0537 a ex:Permen_Lainnya_BNPB ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Bencana Nomor 14 Tahun 2012"@id ;
+    ex:regulationNumber "14" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0538 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 11 Tahun 2012"@id ;
+    ex:regulationNumber "11" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0540 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 16 Tahun 2012"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0541 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 18 Tahun 2012"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0542 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 20 Tahun 2012"@id ;
+    ex:regulationNumber "20" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0543 a ex:Permen_Lainnya_ProvinsiSumateraBarat ;
+    rdfs:label "Peraturan Daerah Provinsi Sumatera Barat Nomor 17 Tahun 2012"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0545 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Presiden Nomor 42 Tahun 2012"@id ;
+    ex:regulationNumber "42" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0546 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Presiden Nomor 114 Tahun 2012"@id ;
+    ex:regulationNumber "114" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0548 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 18 Tahun 2011"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "unspecified" ;
+    ex:year "2011"^^xsd:gYear .
+
+ex:D0549 a ex:Permen_Marves_Kehutanan ;
+    rdfs:label "Peraturan Menteri Kehutanan Nomor P.51/MENHUT-II/2011 Tahun 2011"@id ;
+    ex:regulationNumber "P.51/MENHUT-II/2011" ;
+    ex:status "revoked" ;
+    ex:year "2011"^^xsd:gYear .
+
+ex:D0550 a ex:Permen_Lainnya_PengawasObatMakanan ;
+    rdfs:label "Peraturan Badan Pengawas Obat dan Makanan Nomor HK.04.1.03.11.01799 Tahun 2011"@id ;
+    ex:regulationNumber "HK.04.1.03.11.01799" ;
+    ex:status "active" ;
+    ex:year "2011"^^xsd:gYear .
+
+ex:D0551 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 35 Tahun 2011"@id ;
+    ex:regulationNumber "35" ;
+    ex:status "active" ;
+    ex:year "2011"^^xsd:gYear .
+
+ex:D0554 a ex:Permen_Lainnya_ProvinsiJambi ;
+    rdfs:label "Peraturan Daerah Provinsi Jambi Nomor 5 Tahun 2011"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2011"^^xsd:gYear .
+
+ex:D0555 a ex:Permen_Lainnya_ProvinsiJawaBarat ;
+    rdfs:label "Peraturan Daerah Provinsi Jawa Barat Nomor 18 Tahun 2011"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2011"^^xsd:gYear .
+
+ex:D0556 a ex:Permen_Perekonomian_KopUKM ;
+    rdfs:label "Peraturan Menteri Koperasi dan UKM Nomor 06/PER/M.KUKM/XI/2010 Tahun 2010"@id ;
+    ex:regulationNumber "06/PER/M.KUKM/XI/2010" ;
+    ex:status "active" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0557 a ex:Permen_Perekonomian_NegaraPerumahanRakyat ;
+    rdfs:label "Peraturan Menteri Negara Perumahan Rakyat Nomor 6 Tahun 2010"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0558 a ex:Permen_Perekonomian_NegaraPerumahanRakyat ;
+    rdfs:label "Peraturan Menteri Negara Perumahan Rakyat Nomor 8 Tahun 2010"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0559 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 29 Tahun 2010"@id ;
+    ex:regulationNumber "29" ;
+    ex:status "active" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0561 a ex:Permen_PMK_PendidikanNasional ;
+    rdfs:label "Peraturan Menteri Pendidikan Nasional Nomor 39 Tahun 2010"@id ;
+    ex:regulationNumber "39" ;
+    ex:status "active" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0562 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 18 Tahun 2010"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0563 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 18 Tahun 2010"@id ;
+    ex:regulationNumber "18" ;
+    ex:status "revoked" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0565 a ex:Permen_Lainnya_KotaBanjarmasin ;
+    rdfs:label "Peraturan Daerah Kota Banjarmasin Nomor 5 Tahun 2010"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0566 a ex:Permen_Lainnya_ProvinsiSulawesiSelatan ;
+    rdfs:label "Peraturan Daerah Provinsi Sulawesi Selatan Nomor 3 Tahun 2010"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0567 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 3 Tahun 2009"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "unspecified" ;
+    ex:year "2009"^^xsd:gYear .
+
+ex:D0568 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 10 Tahun 2009"@id ;
+    ex:regulationNumber "10" ;
+    ex:status "unspecified" ;
+    ex:year "2009"^^xsd:gYear .
+
+ex:D0569 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 6 Tahun 2009"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2009"^^xsd:gYear .
+
+ex:D0570 a ex:Permen_Lainnya_ProvinsiBangkaBelitung ;
+    rdfs:label "Peraturan Daerah Provinsi Bangka Belitung Nomor 6 Tahun 2009"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2009"^^xsd:gYear .
+
+ex:D0571 a ex:Permen_Lainnya_ProvinsiBangkaBelitung ;
+    rdfs:label "Peraturan Daerah Provinsi Bangka Belitung Nomor 6 Tahun 2009"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2009"^^xsd:gYear .
+
+ex:D0572 a ex:Permen_Lainnya_ProvinsiKalimantanTimur ;
+    rdfs:label "Peraturan Daerah Provinsi Kalimantan Timur Nomor 17 Tahun 2008"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2008"^^xsd:gYear .
+
+ex:D0573 a ex:Permen_Lainnya_KepolisianNegara ;
+    rdfs:label "Peraturan Kepolisian Negara Republik Indonesia Nomor 17 Tahun 2007"@id ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2007"^^xsd:gYear .
+
+ex:D0574 a ex:Permen_Lainnya_ProvinsiDkiJakarta ;
+    rdfs:label "Peraturan Daerah Provinsi DKI Jakarta Nomor 1 Tahun 2007"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2007"^^xsd:gYear .
+
+ex:D0575 a ex:Permen_Lainnya_KabupatenPurwakarta ;
+    rdfs:label "Peraturan Daerah Kabupaten Purwakarta Nomor 22 Tahun 2007"@id ;
+    ex:regulationNumber "22" ;
+    ex:status "active" ;
+    ex:year "2007"^^xsd:gYear .
+
+ex:D0576 a ex:Permen_Lainnya_ProvinsiDkiJakarta ;
+    rdfs:label "Peraturan Daerah Provinsi DKI Jakarta Nomor 1 Tahun 2007"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2007"^^xsd:gYear .
+
+ex:D0577 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Presiden Nomor 46 Tahun 2007"@id ;
+    ex:regulationNumber "46" ;
+    ex:status "active" ;
+    ex:year "2007"^^xsd:gYear .
+
+ex:D0579 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 3 Tahun 2006"@id ;
+    ex:regulationNumber "3" ;
+    ex:status "active" ;
+    ex:year "2006"^^xsd:gYear .
+
+ex:D0580 a ex:Permen_Lainnya_KabupatenGresik ;
+    rdfs:label "Peraturan Daerah Kabupaten Gresik Nomor 7 Tahun 2006"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2006"^^xsd:gYear .
+
+ex:D0581 a ex:Permen_Lainnya_KabupatenMusiRawas ;
+    rdfs:label "Peraturan Daerah Kabupaten Musi Rawas Nomor 15 Tahun 2006"@id ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2006"^^xsd:gYear .
+
+ex:D0582 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Presiden Nomor 40 Tahun 2006"@id ;
+    ex:regulationNumber "40" ;
+    ex:status "active" ;
+    ex:year "2006"^^xsd:gYear .
+
+ex:D0583 a ex:Permen_Lainnya_ProvinsiJawaTengah ;
+    rdfs:label "Peraturan Daerah Provinsi Jawa Tengah Nomor 4 Tahun 2005"@id ;
+    ex:regulationNumber "4" ;
+    ex:status "active" ;
+    ex:year "2005"^^xsd:gYear .
+
+ex:D0584 a ex:Permen_Lainnya_KotaCilegon ;
+    rdfs:label "Peraturan Daerah Kota Cilegon Nomor 12 Tahun 2005"@id ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2005"^^xsd:gYear .
+
+ex:D0585 a ex:Permen_Lainnya_KabupatenAcehUtara ;
+    rdfs:label "Peraturan Daerah Kabupaten Aceh Utara Nomor 24 Tahun 2005"@id ;
+    ex:regulationNumber "24" ;
+    ex:status "active" ;
+    ex:year "2005"^^xsd:gYear .
+
+ex:D0586 a ex:Permen_Lainnya_KabupatenTanahBumbu ;
+    rdfs:label "Peraturan Daerah Kabupaten Tanah Bumbu Nomor 24 Tahun 2005"@id ;
+    ex:regulationNumber "24" ;
+    ex:status "active" ;
+    ex:year "2005"^^xsd:gYear .
+
+ex:D0587 a ex:Permen_Lainnya_KabupatenPurbalingga ;
+    rdfs:label "Peraturan Daerah Kabupaten Purbalingga Nomor 32 Tahun 2005"@id ;
+    ex:regulationNumber "32" ;
+    ex:status "active" ;
+    ex:year "2005"^^xsd:gYear .
+
+ex:D0588 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Presiden Nomor 24 Tahun 2005"@id ;
+    ex:regulationNumber "24" ;
+    ex:status "active" ;
+    ex:year "2005"^^xsd:gYear .
+
+ex:D0589 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Pemerintah Nomor 42 Tahun 2005"@id ;
+    ex:regulationNumber "42" ;
+    ex:status "active" ;
+    ex:year "2005"^^xsd:gYear .
+
+ex:D0590 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Keputusan Presiden Nomor 105 Tahun 2004"@id ;
+    ex:regulationNumber "105" ;
+    ex:status "active" ;
+    ex:year "2004"^^xsd:gYear .
+
+ex:D0591 a ex:Permen_Lainnya_KabupatenBanyumas ;
+    rdfs:label "Peraturan Daerah Kabupaten Banyumas Nomor 9 Tahun 2004"@id ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2004"^^xsd:gYear .
+
+ex:D0592 a ex:Permen_Lainnya_KabupatenMagelang ;
+    rdfs:label "Peraturan Daerah Kabupaten Magelang Nomor 20 Tahun 2004"@id ;
+    ex:regulationNumber "20" ;
+    ex:status "active" ;
+    ex:year "2004"^^xsd:gYear .
+
+ex:D0593 a ex:Permen_Lainnya_KotaMadiun ;
+    rdfs:label "Peraturan Daerah Kota Madiun Nomor 31 Tahun 2004"@id ;
+    ex:regulationNumber "31" ;
+    ex:status "active" ;
+    ex:year "2004"^^xsd:gYear .
+
+ex:D0594 a ex:Permen_Lainnya_KabupatenTanggamus ;
+    rdfs:label "Peraturan Daerah Kabupaten Tanggamus Nomor 5 Tahun 2003"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "2003"^^xsd:gYear .
+
+ex:D0595 a ex:Permen_Lainnya_KabupatenJayapura ;
+    rdfs:label "Peraturan Daerah Kabupaten Jayapura Nomor 16 Tahun 2003"@id ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2003"^^xsd:gYear .
+
+ex:D0596 a ex:Permen_Lainnya_ProvinsiBanten ;
+    rdfs:label "Peraturan Daerah Provinsi Banten Nomor 47 Tahun 2002"@id ;
+    ex:regulationNumber "47" ;
+    ex:status "active" ;
+    ex:year "2002"^^xsd:gYear .
+
+ex:D0597 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Keputusan Presiden Nomor 115 Tahun 2001"@id ;
+    ex:regulationNumber "115" ;
+    ex:status "active" ;
+    ex:year "2001"^^xsd:gYear .
+
+ex:D0598 a ex:Permen_Lainnya_ProvinsiJawaTengah ;
+    rdfs:label "Peraturan Daerah Provinsi Jawa Tengah Nomor 8 Tahun 2001"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2001"^^xsd:gYear .
+
+ex:D0599 a ex:Permen_Lainnya_ProvinsiNanggroeAceh ;
+    rdfs:label "Peraturan Daerah Provinsi Nanggroe Aceh Darussalam Nomor 38 Tahun 2001"@id ;
+    ex:regulationNumber "38" ;
+    ex:status "active" ;
+    ex:year "2001"^^xsd:gYear .
+
+ex:D0600 a ex:Permen_Lainnya_ProvinsiNanggroeAceh ;
+    rdfs:label "Peraturan Daerah Provinsi Nanggroe Aceh Darussalam Nomor 38 Tahun 2001"@id ;
+    ex:regulationNumber "38" ;
+    ex:status "active" ;
+    ex:year "2001"^^xsd:gYear .
+
+ex:D0601 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Keputusan Presiden Nomor 25 Tahun 2000"@id ;
+    ex:regulationNumber "25" ;
+    ex:status "active" ;
+    ex:year "2000"^^xsd:gYear .
+
+ex:D0602 a ex:Permen_Lainnya_ProvinsiJawaBarat ;
+    rdfs:label "Peraturan Daerah Provinsi Jawa Barat Nomor 6 Tahun 2000"@id ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2000"^^xsd:gYear .
+
+ex:D0603 a ex:Permen_Lainnya_KabupatenBantul ;
+    rdfs:label "Peraturan Daerah Kabupaten Bantul Nomor 36 Tahun 2000"@id ;
+    ex:regulationNumber "36" ;
+    ex:status "active" ;
+    ex:year "2000"^^xsd:gYear .
+
+ex:D0604 a ex:Permen_Lainnya_ProvinsiLampung ;
+    rdfs:label "Peraturan Daerah Provinsi Lampung Nomor 2 Tahun 1996"@id ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "1996"^^xsd:gYear .
+
+ex:D0605 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Keputusan Presiden Nomor 34 Tahun 1995"@id ;
+    ex:regulationNumber "34" ;
+    ex:status "active" ;
+    ex:year "1995"^^xsd:gYear .
+
+ex:D0606 a ex:Permen_Lainnya_ProvinsiYogyakarta ;
+    rdfs:label "Peraturan Daerah Provinsi DI Yogyakarta Nomor 7 Tahun 1994"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "1994"^^xsd:gYear .
+
+ex:D0607 a ex:Permen_Lainnya_ProvinsiYogyakarta ;
+    rdfs:label "Peraturan Daerah Provinsi DI Yogyakarta Nomor 8 Tahun 1994"@id ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "1994"^^xsd:gYear .
+
+ex:D0608 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Keputusan Presiden Nomor 92 Tahun 1993"@id ;
+    ex:regulationNumber "92" ;
+    ex:status "active" ;
+    ex:year "1993"^^xsd:gYear .
+
+ex:D0609 a ex:Permen_Lainnya_ProvinsiNusaTenggara ;
+    rdfs:label "Peraturan Daerah Provinsi Nusa Tenggara Timur Nomor 1 Tahun 1993"@id ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "1993"^^xsd:gYear .
+
+ex:D0610 a ex:Permen_Lainnya_ProvinsiNanggroeAceh ;
+    rdfs:label "Peraturan Daerah Provinsi Nanggroe Aceh Darussalam Nomor 5 Tahun 1990"@id ;
+    ex:regulationNumber "5" ;
+    ex:status "active" ;
+    ex:year "1990"^^xsd:gYear .
+
+ex:D0612 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Keputusan Presiden Nomor 26 Tahun 1974"@id ;
+    ex:regulationNumber "26" ;
+    ex:status "active" ;
+    ex:year "1974"^^xsd:gYear .
+
+ex:D0613 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Undang-Undang Nomor 7 Tahun 1971"@id ;
+    ex:regulationNumber "7" ;
+    ex:status "revoked" ;
+    ex:year "1971"^^xsd:gYear .
+
+ex:D0614 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Presiden Nomor 19 Tahun 1961"@id ;
+    ex:regulationNumber "19" ;
+    ex:status "active" ;
+    ex:year "1961"^^xsd:gYear .
+
+ex:mencabut a owl:ObjectProperty ;
+    rdfs:label "mencabut (revokes)"@id ;
+    rdfs:domain ex:Regulasi ;
+    rdfs:range ex:Regulasi ;
+    owl:inverseOf ex:dicabutOleh .
+
+ex:D0049 a ex:Permen_Polhukam_LuarNegeri ;
+    rdfs:label "Peraturan Menteri Luar Negeri Nomor 12 Tahun 2022"@id ;
+    ex:mencabut ex:D0356 ;
+    ex:regulationNumber "12" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0054 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 1 Tahun 2022"@id ;
+    ex:mencabut ex:D0234 ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0065 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 8 Tahun 2022"@id ;
+    ex:mencabut ex:D0407 ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0073 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 9 Tahun 2022"@id ;
+    ex:mencabut ex:D0387 ;
+    ex:regulationNumber "9" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0087 a ex:Permen_Marves_KKP ;
+    rdfs:label "Peraturan Menteri Kelautan dan Perikanan Nomor 8 Tahun 2021"@id ;
+    ex:mencabut ex:D0294 ;
+    ex:regulationNumber "8" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0090 a ex:Permen_Perekonomian_Ketenagakerjaan ;
+    rdfs:label "Peraturan Menteri Ketenagakerjaan Nomor 26 Tahun 2021"@id ;
+    ex:mencabut ex:D0238 ;
+    ex:regulationNumber "26" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0095 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 6 Tahun 2021"@id ;
+    ex:mencabut ex:D0539 ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0108 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 2 Tahun 2020"@id ;
+    ex:mencabut ex:D0578 ;
+    ex:regulationNumber "2" ;
+    ex:status "active" ;
+    ex:year "2020"^^xsd:gYear .
+
+ex:D0133 a ex:Permen_PMK_PPPA ;
+    rdfs:label "Peraturan Menteri Pemberdayaan Perempuan dan Perlindungan Anak Nomor 14 Tahun 2019"@id ;
+    ex:mencabut ex:D0357 ;
+    ex:regulationNumber "14" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0134 a ex:Permen_Marves_Pariwisata ;
+    rdfs:label "Peraturan Menteri Pariwisata Nomor 15 Tahun 2019"@id ;
+    ex:mencabut ex:D0503 ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0142 a ex:Permen_PMK_PPPA ;
+    rdfs:label "Peraturan Menteri Pemberdayaan Perempuan dan Perlindungan Anak Nomor 16 Tahun 2019"@id ;
+    ex:mencabut ex:D0291 ;
+    ex:regulationNumber "16" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0150 a ex:Permen_PMK_PPPA ;
+    rdfs:label "Peraturan Menteri Pemberdayaan Perempuan dan Perlindungan Anak Nomor 15 Tahun 2019"@id ;
+    ex:mencabut ex:D0288 ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0162 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 6 Tahun 2019"@id ;
+    ex:mencabut ex:D0403 ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0170 a ex:Permen_Lainnya_BPS ;
+    rdfs:label "Peraturan Kepala Badan Pusat Statistik Nomor 1 Tahun 2019"@id ;
+    ex:mencabut ex:D0486 ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0175 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Pemerintah Nomor 53 Tahun 2019"@id ;
+    ex:mencabut ex:D0472 ;
+    ex:regulationNumber "53" ;
+    ex:status "active" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0182 a ex:Permen_Polhukam_PANRB ;
+    rdfs:label "Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 24 Tahun 2018"@id ;
+    ex:mencabut ex:D0353 ;
+    ex:regulationNumber "24" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0189 a ex:Permen_Marves_MenkoMarves ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kemaritiman Nomor 10 Tahun 2018"@id ;
+    ex:mencabut ex:D0293 ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0203 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 7 Tahun 2018"@id ;
+    ex:mencabut ex:D0394 ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0205 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 10 Tahun 2018"@id ;
+    ex:mencabut ex:D0388 ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2018"^^xsd:gYear .
+
+ex:D0233 a ex:Permen_Marves_LHK ;
+    rdfs:label "Peraturan Menteri Lingkungan Hidup dan Kehutanan Nomor P.21/MENLHK/SETJEN/KUM.1/3/2017 Tahun 2017"@id ;
+    ex:mencabut ex:D0423 ;
+    ex:regulationNumber "P.21/MENLHK/SETJEN/KUM.1/3/2017" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0234 a ex:Permen_Marves_DesaPDTT ;
+    rdfs:label "Peraturan Menteri Desa, Pembangunan Daerah Tertinggal, dan Transmigrasi Nomor 3 Tahun 2017"@id ;
+    ex:dicabutOleh ex:D0054 ;
+    ex:regulationNumber "3" ;
+    ex:status "revoked" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0235 a ex:Permen_Marves_LHK ;
+    rdfs:label "Peraturan Menteri Lingkungan Hidup dan Kehutanan Nomor P.24/MENLHK/SETJEN/KUM.1/4/2017 Tahun 2017"@id ;
+    ex:mencabut ex:D0478 ;
+    ex:regulationNumber "P.24/MENLHK/SETJEN/KUM.1/4/2017" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0238 a ex:Permen_Perekonomian_Ketenagakerjaan ;
+    rdfs:label "Peraturan Menteri Ketenagakerjaan Nomor 15 Tahun 2017"@id ;
+    ex:dicabutOleh ex:D0090 ;
+    ex:regulationNumber "15" ;
+    ex:status "revoked" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0274 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 19 Tahun 2017"@id ;
+    ex:mencabut ex:D0527 ;
+    ex:regulationNumber "19" ;
+    ex:status "active" ;
+    ex:year "2017"^^xsd:gYear .
+
+ex:D0287 a ex:Permen_PMK_Sosial ;
+    rdfs:label "Peraturan Menteri Sosial Nomor 7 Tahun 2016"@id ;
+    ex:mencabut ex:D0509 ;
+    ex:regulationNumber "7" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0291 a ex:Permen_PMK_PPPA ;
+    rdfs:label "Peraturan Menteri Pemberdayaan Perempuan dan Perlindungan Anak Nomor 11 Tahun 2016"@id ;
+    ex:dicabutOleh ex:D0142 ;
+    ex:regulationNumber "11" ;
+    ex:status "revoked" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0293 a ex:Permen_Marves_MenkoMarves ;
+    rdfs:label "Peraturan Menteri Koordinator Bidang Kemaritiman Nomor 11 Tahun 2016"@id ;
+    ex:dicabutOleh ex:D0189 ;
+    ex:regulationNumber "11" ;
+    ex:status "revoked" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0294 a ex:Permen_Marves_KKP ;
+    rdfs:label "Peraturan Menteri Kelautan dan Perikanan Nomor 67/PERMEN-KP/2016 Tahun 2016"@id ;
+    ex:dicabutOleh ex:D0087 ;
+    ex:regulationNumber "67/PERMEN-KP/2016" ;
+    ex:status "revoked" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0313 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 10 Tahun 2016"@id ;
+    ex:mencabut ex:D0449 ;
+    ex:regulationNumber "10" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0322 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 18 Tahun 2016"@id ;
+    ex:mencabut ex:D0552 ;
+    ex:regulationNumber "18" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0332 a ex:Permen_Polhukam_KPU ;
+    rdfs:label "Peraturan Komisi Pemilihan Umum Nomor 17 Tahun 2016"@id ;
+    ex:mencabut ex:D0483 ;
+    ex:regulationNumber "17" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0353 a ex:Permen_Polhukam_PANRB ;
+    rdfs:label "Peraturan Menteri Pendayagunaan Aparatur Negara dan Reformasi Birokrasi Nomor 13 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0182 ;
+    ex:regulationNumber "13" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0356 a ex:Permen_Polhukam_LuarNegeri ;
+    rdfs:label "Peraturan Menteri Luar Negeri Nomor 8 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0049 ;
+    ex:regulationNumber "8" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0357 a ex:Permen_PMK_PPPA ;
+    rdfs:label "Peraturan Menteri Pemberdayaan Perempuan dan Perlindungan Anak Nomor 13 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0133 ;
+    ex:regulationNumber "13" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0379 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 26 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0326 ;
+    ex:regulationNumber "26" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0387 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 33 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0073 ;
+    ex:regulationNumber "33" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0388 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 32 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0205 ;
+    ex:regulationNumber "32" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0394 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 35 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0203 ;
+    ex:regulationNumber "35" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0395 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 26 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0326 ;
+    ex:regulationNumber "26" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0396 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 27 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0326 ;
+    ex:regulationNumber "27" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0403 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 38 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0162 ;
+    ex:regulationNumber "38" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0407 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 47 Tahun 2015"@id ;
+    ex:dicabutOleh ex:D0065 ;
+    ex:regulationNumber "47" ;
+    ex:status "revoked" ;
+    ex:year "2015"^^xsd:gYear .
+
+ex:D0423 a ex:Permen_Marves_Kehutanan ;
+    rdfs:label "Peraturan Menteri Kehutanan Nomor P.45/MENHUT-II/2014 Tahun 2014"@id ;
+    ex:dicabutOleh ex:D0233 ;
+    ex:regulationNumber "P.45/MENHUT-II/2014" ;
+    ex:status "revoked" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0434 a ex:Permen_PMK_PPPA ;
+    rdfs:label "Peraturan Menteri Pemberdayaan Perempuan dan Perlindungan Anak Nomor 3 Tahun 2014"@id ;
+    ex:dicabutOleh ex:D0288 ;
+    ex:regulationNumber "3" ;
+    ex:status "revoked" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0439 a ex:Permen_Lainnya_BNPB ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Bencana Nomor 1 Tahun 2014"@id ;
+    ex:dicabutOleh ex:D0105 ;
+    ex:regulationNumber "1" ;
+    ex:status "revoked" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0440 a ex:Permen_Lainnya_BNPB ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Bencana Nomor 5 Tahun 2014"@id ;
+    ex:dicabutOleh ex:D0105 ;
+    ex:regulationNumber "5" ;
+    ex:status "revoked" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0447 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 16 Tahun 2014"@id ;
+    ex:dicabutOleh ex:D0063 ;
+    ex:regulationNumber "16" ;
+    ex:status "revoked" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0449 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 10 Tahun 2014"@id ;
+    ex:dicabutOleh ex:D0313 ;
+    ex:regulationNumber "10" ;
+    ex:status "revoked" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0452 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 14 Tahun 2014"@id ;
+    ex:dicabutOleh ex:D0063 ;
+    ex:regulationNumber "14" ;
+    ex:status "revoked" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0472 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Pemerintah Nomor 63 Tahun 2014"@id ;
+    ex:dicabutOleh ex:D0175 ;
+    ex:regulationNumber "63" ;
+    ex:status "revoked" ;
+    ex:year "2014"^^xsd:gYear .
+
+ex:D0478 a ex:Permen_Marves_Kehutanan ;
+    rdfs:label "Peraturan Menteri Kehutanan Nomor P.33/MENHUT-II/2013 Tahun 2013"@id ;
+    ex:dicabutOleh ex:D0235 ;
+    ex:regulationNumber "P.33/MENHUT-II/2013" ;
+    ex:status "revoked" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0483 a ex:Permen_Polhukam_KPU ;
+    rdfs:label "Peraturan Komisi Pemilihan Umum Nomor 18 Tahun 2013"@id ;
+    ex:dicabutOleh ex:D0332 ;
+    ex:regulationNumber "18" ;
+    ex:status "revoked" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0486 a ex:Permen_Lainnya_BPS ;
+    rdfs:label "Peraturan Kepala Badan Pusat Statistik Nomor 63 Tahun 2013"@id ;
+    ex:dicabutOleh ex:D0170 ;
+    ex:regulationNumber "63" ;
+    ex:status "revoked" ;
+    ex:year "2013"^^xsd:gYear .
+
+ex:D0503 a ex:Permen_Marves_Parekraf ;
+    rdfs:label "Peraturan Menteri Pariwisata dan Ekonomi Kreatif Nomor PM.134/UM.001/MPEK/2012 Tahun 2012"@id ;
+    ex:dicabutOleh ex:D0134 ;
+    ex:regulationNumber "PM.134/UM.001/MPEK/2012" ;
+    ex:status "revoked" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0509 a ex:Permen_PMK_Sosial ;
+    rdfs:label "Peraturan Menteri Sosial Nomor 31 Tahun 2012"@id ;
+    ex:dicabutOleh ex:D0287 ;
+    ex:regulationNumber "31" ;
+    ex:status "revoked" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0518 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 17 Tahun 2012"@id ;
+    ex:dicabutOleh ex:D0335 ;
+    ex:regulationNumber "17" ;
+    ex:status "revoked" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0524 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 25 Tahun 2012"@id ;
+    ex:dicabutOleh ex:D0335 ;
+    ex:regulationNumber "25" ;
+    ex:status "revoked" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0527 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 28 Tahun 2012"@id ;
+    ex:dicabutOleh ex:D0274 ;
+    ex:regulationNumber "28" ;
+    ex:status "revoked" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0539 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 14 Tahun 2012"@id ;
+    ex:dicabutOleh ex:D0095 ;
+    ex:regulationNumber "14" ;
+    ex:status "revoked" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0544 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Pemerintah Nomor 28 Tahun 2012"@id ;
+    ex:mencabut ex:D0611 ;
+    ex:regulationNumber "28" ;
+    ex:status "active" ;
+    ex:year "2012"^^xsd:gYear .
+
+ex:D0547 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 18 Tahun 2011"@id ;
+    ex:dicabutOleh ex:D0086 ;
+    ex:regulationNumber "18" ;
+    ex:status "revoked" ;
+    ex:year "2011"^^xsd:gYear .
+
+ex:D0552 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 42 Tahun 2011"@id ;
+    ex:dicabutOleh ex:D0322 ;
+    ex:regulationNumber "42" ;
+    ex:status "revoked" ;
+    ex:year "2011"^^xsd:gYear .
+
+ex:D0553 a ex:Permen_Lainnya_BNPB ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Bencana Nomor 18 Tahun 2011"@id ;
+    ex:dicabutOleh ex:D0105 ;
+    ex:regulationNumber "18" ;
+    ex:status "revoked" ;
+    ex:year "2011"^^xsd:gYear .
+
+ex:D0560 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 30 Tahun 2010"@id ;
+    ex:dicabutOleh ex:D0137 ;
+    ex:regulationNumber "30" ;
+    ex:status "revoked" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0564 a ex:Permen_Lainnya_BNPB ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Bencana Nomor 26 Tahun 2010"@id ;
+    ex:dicabutOleh ex:D0105 ;
+    ex:regulationNumber "26" ;
+    ex:status "revoked" ;
+    ex:year "2010"^^xsd:gYear .
+
+ex:D0578 a ex:Permen_Marves_ESDM ;
+    rdfs:label "Peraturan Menteri Energi Dan Sumber Daya Mineral Nomor 52 Tahun 2006"@id ;
+    ex:dicabutOleh ex:D0108 ;
+    ex:regulationNumber "52" ;
+    ex:status "revoked" ;
+    ex:year "2006"^^xsd:gYear .
+
+ex:D0611 a ex:Permen_Lainnya_PemPusat ;
+    rdfs:label "Peraturan Pemerintah Nomor 34 Tahun 1979"@id ;
+    ex:dicabutOleh ex:D0544 ;
+    ex:regulationNumber "34" ;
+    ex:status "revoked" ;
+    ex:year "1979"^^xsd:gYear .
+
+ex:Permen_Lainnya_AmilZakatNasional a owl:Class ;
+    rdfs:label "Permen Lainnya AmilZakatNasional"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_IlmuPengetahuan a owl:Class ;
+    rdfs:label "Permen Lainnya IlmuPengetahuan"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_InteligenNegara a owl:Class ;
+    rdfs:label "Permen Lainnya InteligenNegara"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenAcehUtara a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenAcehUtara"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenBadung a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenBadung"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenBandungBarat a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenBandungBarat"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenBantul a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenBantul"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenBanyumas a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenBanyumas"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenBlitar a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenBlitar"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenBlora a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenBlora"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenBondowoso a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenBondowoso"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenBrebes a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenBrebes"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenGarut a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenGarut"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenGresik a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenGresik"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenIndramayu a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenIndramayu"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenJayapura a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenJayapura"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenLumajang a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenLumajang"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenLuwuTimur a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenLuwuTimur"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenMagelang a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenMagelang"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenMusiRawas a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenMusiRawas"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenPadangPariaman a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenPadangPariaman"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenPamekasan a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenPamekasan"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenPurbalingga a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenPurbalingga"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenPurwakarta a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenPurwakarta"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenTanahBumbu a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenTanahBumbu"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenTanggamus a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenTanggamus"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KabupatenTanjungJabung a owl:Class ;
+    rdfs:label "Permen Lainnya KabupatenTanjungJabung"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KeamananLaut a owl:Class ;
+    rdfs:label "Permen Lainnya KeamananLaut"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KepolisianNegara a owl:Class ;
+    rdfs:label "Permen Lainnya KepolisianNegara"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaBanjarbaru a owl:Class ;
+    rdfs:label "Permen Lainnya KotaBanjarbaru"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaBanjarmasin a owl:Class ;
+    rdfs:label "Permen Lainnya KotaBanjarmasin"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaCilegon a owl:Class ;
+    rdfs:label "Permen Lainnya KotaCilegon"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaCirebon a owl:Class ;
+    rdfs:label "Permen Lainnya KotaCirebon"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaDepok a owl:Class ;
+    rdfs:label "Permen Lainnya KotaDepok"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaMadiun a owl:Class ;
+    rdfs:label "Permen Lainnya KotaMadiun"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaPangkalPinang a owl:Class ;
+    rdfs:label "Permen Lainnya KotaPangkalPinang"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaSemarang a owl:Class ;
+    rdfs:label "Permen Lainnya KotaSemarang"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaTasikmalaya a owl:Class ;
+    rdfs:label "Permen Lainnya KotaTasikmalaya"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_LAN a owl:Class ;
+    rdfs:label "Permen Lainnya LAN"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PenerbanganAntariksaNasional a owl:Class ;
+    rdfs:label "Permen Lainnya PenerbanganAntariksaNasional"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PengawasPersainganUsaha a owl:Class ;
+    rdfs:label "Permen Lainnya PengawasPersainganUsaha"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PengawasanKeuanganPembangunan a owl:Class ;
+    rdfs:label "Permen Lainnya PengawasanKeuanganPembangunan"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiKalimantanTimur a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiKalimantanTimur"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiKalimantanUtara a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiKalimantanUtara"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiNusaTenggara a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiNusaTenggara"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiSulawesiSelatan a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiSulawesiSelatan"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiSumateraBarat a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiSumateraBarat"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiSumateraSelatan a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiSumateraSelatan"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Marves_Transmigrasi a owl:Class ;
+    rdfs:label "Permen Marves Transmigrasi"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_PMK_PendidikanKebudayaanRiset a owl:Class ;
+    rdfs:label "Permen PMK PendidikanKebudayaanRiset"@id ;
+    rdfs:subClassOf ex:Permen_PMK .
+
+ex:Permen_PMK_PendidikanNasional a owl:Class ;
+    rdfs:label "Permen PMK PendidikanNasional"@id ;
+    rdfs:subClassOf ex:Permen_PMK .
+
+ex:Permen_Perekonomian_MenkoEkonomi a owl:Class ;
+    rdfs:label "Permen Perekonomian MenkoEkonomi"@id ;
+    rdfs:subClassOf ex:Permen_Perekonomian .
+
+ex:Permen_Perekonomian_Perindustrian a owl:Class ;
+    rdfs:label "Permen Perekonomian Perindustrian"@id ;
+    rdfs:subClassOf ex:Permen_Perekonomian .
+
+ex:Permen_Perekonomian_Pertanian a owl:Class ;
+    rdfs:label "Permen Perekonomian Pertanian"@id ;
+    rdfs:subClassOf ex:Permen_Perekonomian .
+
+ex:Permen_Polhukam_HakAsasiManusia a owl:Class ;
+    rdfs:label "Permen Polhukam HakAsasiManusia"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:Permen_Polhukam_KoordinatorHukumHak a owl:Class ;
+    rdfs:label "Permen Polhukam KoordinatorHukumHak"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:Permen_Polhukam_SekretariatNegara a owl:Class ;
+    rdfs:label "Permen Polhukam SekretariatNegara"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:dicabutOleh a owl:ObjectProperty ;
+    rdfs:label "dicabut oleh (revoked by)"@id ;
+    rdfs:domain ex:Regulasi ;
+    rdfs:range ex:Regulasi .
+
+ex:D0063 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 6 Tahun 2022"@id ;
+    ex:mencabut ex:D0447,
+        ex:D0452 ;
+    ex:regulationNumber "6" ;
+    ex:status "active" ;
+    ex:year "2022"^^xsd:gYear .
+
+ex:D0086 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 15 Tahun 2021"@id ;
+    ex:mencabut ex:D0137,
+        ex:D0547 ;
+    ex:regulationNumber "15" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:D0137 a ex:Permen_Polhukam_Pertahanan ;
+    rdfs:label "Peraturan Menteri Pertahanan Nomor 24 Tahun 2019"@id ;
+    ex:dicabutOleh ex:D0086 ;
+    ex:mencabut ex:D0560 ;
+    ex:regulationNumber "24" ;
+    ex:status "revoked" ;
+    ex:year "2019"^^xsd:gYear .
+
+ex:D0288 a ex:Permen_PMK_PPPA ;
+    rdfs:label "Peraturan Menteri Pemberdayaan Perempuan dan Perlindungan Anak Nomor 4 Tahun 2016"@id ;
+    ex:dicabutOleh ex:D0150 ;
+    ex:mencabut ex:D0434 ;
+    ex:regulationNumber "4" ;
+    ex:status "revoked" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:D0335 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 37 Tahun 2016"@id ;
+    ex:mencabut ex:D0518,
+        ex:D0524 ;
+    ex:regulationNumber "37" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:Permen_Lainnya_BIG a owl:Class ;
+    rdfs:label "Permen Lainnya BIG"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_BadanUsahaMilik a owl:Class ;
+    rdfs:label "Permen Lainnya BadanUsahaMilik"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaBandung a owl:Class ;
+    rdfs:label "Permen Lainnya KotaBandung"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PanganNasional a owl:Class ;
+    rdfs:label "Permen Lainnya PanganNasional"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PerlindunganSaksiKorban a owl:Class ;
+    rdfs:label "Permen Lainnya PerlindunganSaksiKorban"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiBangkaBelitung a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiBangkaBelitung"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiBanten a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiBanten"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiJambi a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiJambi"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiJawaBarat a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiJawaBarat"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiJawaTengah a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiJawaTengah"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiLampung a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiLampung"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiYogyakarta a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiYogyakarta"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PusatPelaporanAnalisis a owl:Class ;
+    rdfs:label "Permen Lainnya PusatPelaporanAnalisis"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_SandiNegara a owl:Class ;
+    rdfs:label "Permen Lainnya SandiNegara"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_SiberSandiNegara a owl:Class ;
+    rdfs:label "Permen Lainnya SiberSandiNegara"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Marves_DesaPembangunanTertinggal a owl:Class ;
+    rdfs:label "Permen Marves DesaPembangunanTertinggal"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_Marves_Parekraf a owl:Class ;
+    rdfs:label "Permen Marves Parekraf"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_Marves_Pariwisata a owl:Class ;
+    rdfs:label "Permen Marves Pariwisata"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_PMK_RisetTeknologiPendidikan a owl:Class ;
+    rdfs:label "Permen PMK RisetTeknologiPendidikan"@id ;
+    rdfs:subClassOf ex:Permen_PMK .
+
+ex:Permen_Perekonomian_ATRBPN a owl:Class ;
+    rdfs:label "Permen Perekonomian ATRBPN"@id ;
+    rdfs:subClassOf ex:Permen_Perekonomian .
+
+ex:D0326 a ex:Permen_Lainnya_ArsipNasional ;
+    rdfs:label "Peraturan Arsip Nasional Nomor 22 Tahun 2016"@id ;
+    ex:mencabut ex:D0379,
+        ex:D0395,
+        ex:D0396 ;
+    ex:regulationNumber "22" ;
+    ex:status "active" ;
+    ex:year "2016"^^xsd:gYear .
+
+ex:Permen_Lainnya_BPS a owl:Class ;
+    rdfs:label "Permen Lainnya BPS"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_EkonomiKreatif a owl:Class ;
+    rdfs:label "Permen Lainnya EkonomiKreatif"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KejaksaanAgung a owl:Class ;
+    rdfs:label "Permen Lainnya KejaksaanAgung"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KomunikasiInformatika a owl:Class ;
+    rdfs:label "Permen Lainnya KomunikasiInformatika"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KoordinasiPenanamanModal a owl:Class ;
+    rdfs:label "Permen Lainnya KoordinasiPenanamanModal"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_KotaBogor a owl:Class ;
+    rdfs:label "Permen Lainnya KotaBogor"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_LKPP a owl:Class ;
+    rdfs:label "Permen Lainnya LKPP"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_NasionalPencarianPertolongan a owl:Class ;
+    rdfs:label "Permen Lainnya NasionalPencarianPertolongan"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PelindunganPekerjaMigran a owl:Class ;
+    rdfs:label "Permen Lainnya PelindunganPekerjaMigran"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PerencanaanPembangunanNasional a owl:Class ;
+    rdfs:label "Permen Lainnya PerencanaanPembangunanNasional"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiDkiJakarta a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiDkiJakarta"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_ProvinsiNanggroeAceh a owl:Class ;
+    rdfs:label "Permen Lainnya ProvinsiNanggroeAceh"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_TenagaNuklirNasional a owl:Class ;
+    rdfs:label "Permen Lainnya TenagaNuklirNasional"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_PMK_MenkoPMK a owl:Class ;
+    rdfs:label "Permen PMK MenkoPMK"@id ;
+    rdfs:subClassOf ex:Permen_PMK .
+
+ex:D0105 a ex:Permen_Lainnya_BNPB ;
+    rdfs:label "Peraturan Badan Nasional Penanggulangan Bencana Nomor 1 Tahun 2021"@id ;
+    ex:mencabut ex:D0439,
+        ex:D0440,
+        ex:D0553,
+        ex:D0564 ;
+    ex:regulationNumber "1" ;
+    ex:status "active" ;
+    ex:year "2021"^^xsd:gYear .
+
+ex:Permen_Lainnya_KoordinatorKesejahteraanRakyat a owl:Class ;
+    rdfs:label "Permen Lainnya KoordinatorKesejahteraanRakyat"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_NasionalPenanggulanganTerorism a owl:Class ;
+    rdfs:label "Permen Lainnya NasionalPenanggulanganTerorism"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_NasionalPengelolaPerbatasan a owl:Class ;
+    rdfs:label "Permen Lainnya NasionalPengelolaPerbatasan"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PengawasTenagaNuklir a owl:Class ;
+    rdfs:label "Permen Lainnya PengawasTenagaNuklir"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_StandardisasiNasional a owl:Class ;
+    rdfs:label "Permen Lainnya StandardisasiNasional"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Marves_Kehutanan a owl:Class ;
+    rdfs:label "Permen Marves Kehutanan"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_Marves_LHK a owl:Class ;
+    rdfs:label "Permen Marves LHK"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_Marves_Perhubungan a owl:Class ;
+    rdfs:label "Permen Marves Perhubungan"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_PMK_Kesehatan a owl:Class ;
+    rdfs:label "Permen PMK Kesehatan"@id ;
+    rdfs:subClassOf ex:Permen_PMK .
+
+ex:Permen_PMK_PendidikanKebudayaan a owl:Class ;
+    rdfs:label "Permen PMK PendidikanKebudayaan"@id ;
+    rdfs:subClassOf ex:Permen_PMK .
+
+ex:Permen_Perekonomian_Ketenagakerjaan a owl:Class ;
+    rdfs:label "Permen Perekonomian Ketenagakerjaan"@id ;
+    rdfs:subClassOf ex:Permen_Perekonomian .
+
+ex:Permen_Perekonomian_Keuangan a owl:Class ;
+    rdfs:label "Permen Perekonomian Keuangan"@id ;
+    rdfs:subClassOf ex:Permen_Perekonomian .
+
+ex:Permen_Perekonomian_NegaraPerumahanRakyat a owl:Class ;
+    rdfs:label "Permen Perekonomian NegaraPerumahanRakyat"@id ;
+    rdfs:subClassOf ex:Permen_Perekonomian .
+
+ex:Permen_Perekonomian_PekerjaanUmumPerumahan a owl:Class ;
+    rdfs:label "Permen Perekonomian PekerjaanUmumPerumahan"@id ;
+    rdfs:subClassOf ex:Permen_Perekonomian .
+
+ex:Permen_Polhukam_NasionalHakAsasi a owl:Class ;
+    rdfs:label "Permen Polhukam NasionalHakAsasi"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:PeraturanKementerian a owl:Class ;
+    rdfs:label "Peraturan Kementerian"@id ;
+    rdfs:subClassOf ex:Regulasi .
+
+ex:Permen_Lainnya_PengawasObatMakanan a owl:Class ;
+    rdfs:label "Permen Lainnya PengawasObatMakanan"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Marves_KKP a owl:Class ;
+    rdfs:label "Permen Marves KKP"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_PMK_PemudaOlahraga a owl:Class ;
+    rdfs:label "Permen PMK PemudaOlahraga"@id ;
+    rdfs:subClassOf ex:Permen_PMK .
+
+ex:Permen_Polhukam_DalamNegeri a owl:Class ;
+    rdfs:label "Permen Polhukam DalamNegeri"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:Regulasi a owl:Class ;
+    rdfs:label "Regulasi"@id .
+
+ex:Permen_Lainnya_KepegawaianNegara a owl:Class ;
+    rdfs:label "Permen Lainnya KepegawaianNegara"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PemberantasanKorupsi a owl:Class ;
+    rdfs:label "Permen Lainnya PemberantasanKorupsi"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Polhukam_LuarNegeri a owl:Class ;
+    rdfs:label "Permen Polhukam LuarNegeri"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:Permen_Lainnya_MeteorologiKlimatologiGeofisik a owl:Class ;
+    rdfs:label "Permen Lainnya MeteorologiKlimatologiGeofisik"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_NarkotikaNasional a owl:Class ;
+    rdfs:label "Permen Lainnya NarkotikaNasional"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya_PengawasPemilihanUmum a owl:Class ;
+    rdfs:label "Permen Lainnya PengawasPemilihanUmum"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_PMK_Sosial a owl:Class ;
+    rdfs:label "Permen PMK Sosial"@id ;
+    rdfs:subClassOf ex:Permen_PMK .
+
+ex:Permen_Perekonomian_Perdagangan a owl:Class ;
+    rdfs:label "Permen Perekonomian Perdagangan"@id ;
+    rdfs:subClassOf ex:Permen_Perekonomian .
+
+ex:Permen_Polhukam_KPU a owl:Class ;
+    rdfs:label "Permen Polhukam KPU"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:Permen_Lainnya_BNPB a owl:Class ;
+    rdfs:label "Permen Lainnya BNPB"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Marves_MenkoMarves a owl:Class ;
+    rdfs:label "Permen Marves MenkoMarves"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_Polhukam_Kumham a owl:Class ;
+    rdfs:label "Permen Polhukam Kumham"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:Permen_Lainnya_Perpusnas a owl:Class ;
+    rdfs:label "Permen Lainnya Perpusnas"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_PMK a owl:Class ;
+    rdfs:label "Permen PMK"@id ;
+    rdfs:subClassOf ex:PeraturanKementerian .
+
+ex:Permen_PMK_PPPA a owl:Class ;
+    rdfs:label "Permen PMK PPPA"@id ;
+    rdfs:subClassOf ex:Permen_PMK .
+
+ex:Permen_Polhukam_PANRB a owl:Class ;
+    rdfs:label "Permen Polhukam PANRB"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:Permen_Perekonomian a owl:Class ;
+    rdfs:label "Permen Perekonomian"@id ;
+    rdfs:subClassOf ex:PeraturanKementerian .
+
+ex:Permen_Perekonomian_KopUKM a owl:Class ;
+    rdfs:label "Permen Perekonomian KopUKM"@id ;
+    rdfs:subClassOf ex:Permen_Perekonomian .
+
+ex:Permen_Polhukam_MenkoPolhukam a owl:Class ;
+    rdfs:label "Permen Polhukam MenkoPolhukam"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:Permen_Marves a owl:Class ;
+    rdfs:label "Permen Marves"@id ;
+    rdfs:subClassOf ex:PeraturanKementerian .
+
+ex:Permen_Marves_DesaPDTT a owl:Class ;
+    rdfs:label "Permen Marves DesaPDTT"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_Polhukam a owl:Class ;
+    rdfs:label "Permen Polhukam"@id ;
+    rdfs:subClassOf ex:PeraturanKementerian .
+
+ex:Permen_Marves_ESDM a owl:Class ;
+    rdfs:label "Permen Marves ESDM"@id ;
+    rdfs:subClassOf ex:Permen_Marves .
+
+ex:Permen_Polhukam_Pertahanan a owl:Class ;
+    rdfs:label "Permen Polhukam Pertahanan"@id ;
+    rdfs:subClassOf ex:Permen_Polhukam .
+
+ex:Permen_Lainnya_PemPusat a owl:Class ;
+    rdfs:label "Permen Lainnya PemPusat"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+
+ex:Permen_Lainnya a owl:Class ;
+    rdfs:label "Permen Lainnya"@id ;
+    rdfs:subClassOf ex:PeraturanKementerian .
+
+ex:Permen_Lainnya_ArsipNasional a owl:Class ;
+    rdfs:label "Permen Lainnya ArsipNasional"@id ;
+    rdfs:subClassOf ex:Permen_Lainnya .
+

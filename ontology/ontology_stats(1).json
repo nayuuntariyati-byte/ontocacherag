@@ -1,0 +1,19 @@
+{
+  "tbox": {
+    "total_classes": 139,
+    "by_level": {
+      "L1": 1,
+      "L2": 1,
+      "L3": 5,
+      "L4": 132
+    }
+  },
+  "properties": 2,
+  "abox": {
+    "instances": 614,
+    "revocations": 42,
+    "in_corpus_revocations": 42,
+    "out_corpus_revocations": 0
+  },
+  "total_triples": 3583
+}
