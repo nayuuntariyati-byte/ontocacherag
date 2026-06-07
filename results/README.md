@@ -6,7 +6,8 @@ This directory holds results of paper experiments.
 
 ```
 results/
-├── figures/         # Image file (PDF + PNG)
+├── tables/          # All tables in 1 Excel file and 9 CSV files
+└── figures/         # Image file (PDF + PNG)
     ├── fig1_architecture.png
     ├── fig2_scalability_measured.png
     ├── fig3_detection.pdf
