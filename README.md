@@ -36,15 +36,6 @@ ontocacherag/
 │   └── arsip_clean.csv                # Cleaned & structured version
 ├── ontology/
 │   └── arsip_real.ttl                 # Resolved OWL ontology (1,901 triples)
-├── experiments/
-│   ├── 01_clean_arsip.py              # CSV cleaning & relation extraction
-│   ├── 02_build_ontology.py           # OWL ontology construction
-│   ├── 03_run_experiment_abox.py      # ABox revocation experiment (Table 4)
-│   ├── 04_run_experiment_tbox.py      # TBox restructuring experiment (Table 5)
-│   ├── 05_run_final.py                # Full 9-system comparison + Wilcoxon
-│   ├── 06_measure_latency.py          # Latency breakdown (Table 6)
-│   ├── 07_analysis_comprehensive.py   # All analyses (Tables 4-8)
-│   └── 08_scalability_experiment.py   # Scalability (Table 9) - STANDALONE
 ├── figures/
 │   ├── Fig1_architecture.png
 │   └── Fig2_scalability_measured.png
