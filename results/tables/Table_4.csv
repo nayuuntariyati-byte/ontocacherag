@@ -1,0 +1,7 @@
+System,Precision,Recall,F1,Stale,Unnecessary Eviction
+OntoCacheRAG,1.0,1.0,1.0,0.0,0.0
+Full-Flush,0.092,1.0,0.169,0.0,0.908
+No-Invalidation,1.0,0.0,0.0,0.092,0.0
+TTL-short,0.088,0.286,0.133,0.066,0.255
+TTL-long,0.086,0.112,0.096,0.082,0.101
+String-Match,1.0,0.546,0.705,0.042,0.0

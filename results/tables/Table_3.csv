@@ -1,0 +1,6 @@
+Hierarchy Level,Classes,Instances,Example
+L1: Regulasi (root),1,—,Regulasi
+L2: PeraturanKementerian,1,—,PeraturanKementerian
+L3: Coordination cluster,5,—,"Permen_Polhukam, Permen_Perekonomian, ..."
+L4: Agency (instansi),124,—,"Permen_Polhukam_Pertahanan, ..."
+L5: Document instances,—,614,D0136 (Permen Pertahanan No.24/2019)

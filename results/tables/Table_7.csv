@@ -1,0 +1,8 @@
+Metric,ABox Revocation,TBox Restructuring,Unit
+Entries affected per event,80.3 ± 14.8,51.5 ± 13.2,entries
+% cache affected,9.2%,5.9%,
+Hit rate before change,100%,100%,
+Hit rate after (OntoCacheRAG),90.8%,94.1%,
+Hit rate after (Full-Flush),0.0%,0.0%,
+Hit rate after (No-Invalidation),100% (15.4% stale),100% (5.9% stale),
+Hit rate after (String-Match),95.0%,100% (5.9% stale),

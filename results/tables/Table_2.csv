@@ -1,0 +1,9 @@
+Change Type,Level,Severity,Rationale / Expected Impact
+Class addition,TBox,Low,Additive; no existing entailments affected
+Property addition,TBox,Low,Additive; no existing triples affected
+Instance reclassification,ABox,Medium,Affects relations involving this entity; impact proportional to entity connectivity
+Instance revocation,ABox,Med–High,Affects revoked entity and all entities linked through resolved properties
+Property value update,ABox,Low–Med,"Affects only (entity, relation) pairs referencing the changed value"
+Subclass restructuring,TBox,Med–High,Propagates through rdfs:subClassOf* chain; impact scales with hierarchy depth
+Property domain/range change,TBox,High,All triples using this property may become inconsistent
+Class deletion,TBox,High,All instances of deleted class (transitively) become orphaned

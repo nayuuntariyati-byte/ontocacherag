@@ -1,0 +1,4 @@
+System,ABox Recall,TBox Recall,Gap vs Full SIM
+OntoCacheRAG (full SIM),1.0,1.0,—
+ABox-1hop (no transitivity),n/a,0.504,−46–50%
+String-Match (lexical only),0.546,0.0,−45–100%

@@ -1,0 +1,7 @@
+Capability,Prior KV Cache Systems,OntoCacheRAG
+Handles KG evolution,No,Yes
+Ontology-driven invalidation,No,Yes (subsumption-aware)
+Selective granularity,Block/chunk level,Ontology-class level
+Per-change-type analysis,Not addressed,ABox + TBox evaluated
+Correctness under evolving KB,Not addressed,Formally defined & empirically evaluated
+Scalability analysis,Fixed ontology size,"200–50,000 classes tested"

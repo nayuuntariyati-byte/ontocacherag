@@ -1,0 +1,5 @@
+Component,Median Latency,Share of Total
+OCD (event classification),0.002 ms,0.1%
+SIM (SPARQL subsumption),2.593 ms,99.0%
+SCI (reverse-index lookup),0.003 ms,0.1%
+End-to-end (OCD+SIM+SCI),2.619 ms,100%
