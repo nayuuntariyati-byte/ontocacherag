@@ -35,7 +35,9 @@ ontocacherag/
 │   ├── ArsipDataset-final.csv         # Raw regulatory corpus (614 documents)
 │   └── arsip_clean.csv                # Cleaned & structured version
 ├── ontology/
-│   └── arsip_real.ttl                 # Resolved OWL ontology (1,901 triples)
+│   ├── arsipdataset_ontology.ttl
+│   ├── arsipdataset_ontology.owl      # Resolved OWL ontology (1,901 triples)
+│   └── ontology_stats.json                 
 ├── figures/
 │   ├── Fig1_architecture.png
 │   └── Fig2_scalability_measured.png
