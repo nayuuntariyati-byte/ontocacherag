@@ -7,8 +7,8 @@ This directory holds results of paper experiments.
 ```
 results/
 ├── figures/         # Image file (PDF + PNG)
-    ├── fig1_architecture.pdf
-    ├── fig2_scalability.pdf
+    ├── fig1_architecture.png
+    ├── fig2_scalability_measured.png
     ├── fig3_detection.pdf
     └── fig4_cache_state.pdf
 ```
